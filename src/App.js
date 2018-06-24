@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import YouTubeFrame from 'components/YouTubeFrame';
+
 class App extends Component {
   render() {
 
@@ -14,9 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <iframe id="player" type="text/html" width="640" height="390"
-  src="http://www.youtube.com/embed?listType=playlist&list=PLXeXlqUgjSWNAZFPJB6rf7uOBUtvEjfJD"
-  frameborder="0"></iframe>
+        <YouTubeFrame/>
       </div>
     );
   }
