@@ -1,0 +1,36 @@
+.navigationBar {
+  height: '1.5em';
+  padding-top: .5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  color: white;
+  background-color: black;
+  z-index: 1;
+  border: 0px;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  min-height: 40px;
+  min-width: 40px;
+}
+#bamLogo {
+  max-width:40px;
+  max-height:40px;
+  width: auto;
+  height: auto;
+}
+.menuItem{
+  font-size: 4vh
+}
+/* 
+@media (max-width: 991px) {
+  .desktop-only {
+      display:none !important;
+  }
+} */
