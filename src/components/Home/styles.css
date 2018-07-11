@@ -1,0 +1,54 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+  max-height: 80%
+}
+.section {
+  position: relative;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+#primeLogo{
+  height: 120px;
+  width: 240px;
+  border-radius: 5%;
+}
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+.static {
+  background: black;
+  height: 60%;
+  min-height: 400px;
+}
+.bg1::after {
+  background-image: url('../../img/image5.jpeg');
+}
+.bg2::after {
+  background-image: url('../../img/image4.jpeg');
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
