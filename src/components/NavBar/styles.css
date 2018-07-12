@@ -26,9 +26,10 @@
   height: auto;
 }
 .menuItem{
-  font-size: 4vh
+  font-size: 2vh;
+	color: white;
 }
-/* 
+/*
 @media (max-width: 991px) {
   .desktop-only {
       display:none !important;

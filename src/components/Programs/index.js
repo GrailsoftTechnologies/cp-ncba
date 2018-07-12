@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-class Menu extends Component {
+class Programs extends Component {
 render() {
   return(
   	<div>
-			<p>Menu</p>
+			<p>Programs</p>
 		</div>
     );
   }
 }
 
-export default Menu;
+export default Programs;
