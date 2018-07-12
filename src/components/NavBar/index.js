@@ -19,7 +19,7 @@ class NavBar extends Component {
 	}
   render() {
     return (
-      <Navbar inverse fluid collapseOnSelect sticky-top expand="md" className={this.props.className}>
+      <Navbar expand="md" className={this.props.className}>
         <NavbarBrand>
           <Link to="/"><img id="bamLogo" src={Logo} alt='the brick and motor logo'></img></Link>
         </NavbarBrand>
@@ -52,7 +52,7 @@ class NavBar extends Component {
 }
 
 NavBar.defaultProps = {
-  className: "navigationBar sticky-top",
+  className: "navigationBar sticky-top navbar-dark bg-dark",
 }
 
 export default NavBar;
