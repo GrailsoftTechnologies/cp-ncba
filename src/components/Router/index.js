@@ -7,6 +7,7 @@ import Home from '../Home';
 import Programs from '../Programs';
 import About from '../About';
 import Contact from '../Contact';
+import Gallery from '../Gallery';
 import NotFound from '../NotFound';
 import './styles.css';
 
@@ -19,6 +20,7 @@ class Router extends Component {
           <Route path="/programs" component={Programs}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
+					<Route path="/gallery" component={Gallery}/>
           <Route component={NotFound} />
         </Switch>
       </div>
