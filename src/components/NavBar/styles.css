@@ -9,6 +9,10 @@
   border: 0px;
 }
 
+.bg-dark {
+	background-color: black!important;
+}
+
 .navbar-brand {
   padding-top: 5px;
   padding-right: 15px;

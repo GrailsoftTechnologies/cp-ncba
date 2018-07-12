@@ -52,7 +52,7 @@ class NavBar extends Component {
 }
 
 NavBar.defaultProps = {
-  className: "navigationBar sticky-top navbar-dark bg-dark",
+  className: "sticky-top navbar-dark bg-dark",
 }
 
 export default NavBar;
