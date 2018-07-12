@@ -10,6 +10,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+				<p>Home</p>
 				<YouTubeFrame/>
 				<CalendarFrame/>
 			</div>

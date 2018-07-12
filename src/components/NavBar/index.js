@@ -26,9 +26,9 @@ class NavBar extends Component {
         <NavbarToggler onClick={this.toggle}/>
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavLink href={"#/Menu"} className="menuItem">Menusss</NavLink>
+            <NavLink href={"#/Menu"} className="menuItem">Menu</NavLink>
             <NavLink href={"#/About"} className="menuItem">About</NavLink>
-            <NavLink href={"#/Contacts"} className="menuItem">Contact</NavLink>
+            <NavLink href={"#/Contact"} className="menuItem">Contact</NavLink>
           </Nav>
         </Collapse>
       </Navbar>
