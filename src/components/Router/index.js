@@ -9,6 +9,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Gallery from '../Gallery';
 import Schedule from '../Schedule';
+import Reviews from '../Reviews';
 import NotFound from '../NotFound';
 import './styles.css';
 
@@ -23,6 +24,7 @@ class Router extends Component {
           <Route path="/contact" component={Contact}/>
 					<Route path="/gallery" component={Gallery}/>
 					<Route path="/schedule" component={Schedule}/>
+					<Route path="/reviews" component={Reviews}/>
           <Route component={NotFound} />
         </Switch>
       </div>
