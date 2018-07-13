@@ -7,7 +7,7 @@ import CarouselFrame from '../CarouselFrame';
 class Home extends Component {
   render() {
 		return(
-			<div>
+			<div className="Home">
 				<CarouselFrame/>
 			</div>
 		)

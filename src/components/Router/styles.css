@@ -1,4 +1,5 @@
 .Router {
-	display: inline-block;
 	position: relative;
+	background-color: black;
+	min-height: 85vh;
 }
