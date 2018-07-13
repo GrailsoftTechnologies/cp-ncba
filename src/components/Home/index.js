@@ -89,7 +89,6 @@ class Home extends Component {
 
     return (
       <div>
-				<p>Home</p>
 					<Carousel
 	        activeIndex={activeIndex}
 	        next={this.next}
