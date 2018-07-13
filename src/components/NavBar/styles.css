@@ -9,8 +9,18 @@
   border: 0px;
 }
 
+/* Bootstrap overrides */
 .bg-dark {
 	background-color: black!important;
+}
+
+.nav-link {
+	color: white!important;
+	border-bottom: 1px black solid;
+}
+
+.nav-link:hover {
+	border-bottom: 1px white solid;
 }
 
 .navbar-brand {
