@@ -14,7 +14,7 @@ class CalendarFrame extends Component {
 		} else {
 			return (
 				<div>
-					<iframe src="https://calendar.google.com/calendar/embed?height=800&amp;wkst=1&amp;bgcolor=%23e3e9ff&amp;src=i_131.252.200.188%23sunrise%40group.v.calendar.google.com&amp;color=%235A6986&amp;ctz=America%2FChicago"  width="800" height="800" frameborder="0" scrolling="no" title="icalfram2"></iframe>
+					<iframe src="https://calendar.google.com/calendar/embed?height=800&amp;wkst=1&amp;bgcolor=%23e3e9ff&amp;src=i_131.252.200.188%23sunrise%40group.v.calendar.google.com&amp;color=%235A6986&amp;ctz=America%2FChicago"  width="1400" height="800" frameborder="0" scrolling="no" title="icalframe2"></iframe>
 				</div>
 			)
 		}
@@ -25,7 +25,7 @@ class CalendarFrame extends Component {
 CalendarFrame.defaultProps = {
 	width : 800,
 	height : 1600,
-	list: true,
+	list: false,
 }
 
 CalendarFrame.propTypes = {
