@@ -6,7 +6,6 @@ class Programs extends Component {
 render() {
   return(
   	<div>
-			<p>Programs</p>
 				<Container>
 					<Row>
 						<Col>

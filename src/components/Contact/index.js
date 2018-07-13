@@ -6,7 +6,6 @@ class Contact extends Component {
   render() {
     return (
       <div>
-				<p>Contact</p>
         <Container>
           <Form>
             <FormGroup>

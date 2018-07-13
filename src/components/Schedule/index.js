@@ -7,7 +7,6 @@ class Schedule extends Component {
 render() {
   return(
   	<div>
-			<p>Schedule</p>
 			<CalendarFrame/>
 		</div>
     );
