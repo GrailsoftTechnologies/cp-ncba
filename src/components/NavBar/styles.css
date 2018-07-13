@@ -27,10 +27,11 @@
   min-width: 40px;
 }
 #bamLogo {
-  max-width:40px;
-  max-height:40px;
+  max-width:80px;
+  max-height:80px;
   width: auto;
   height: auto;
+  margin-left: 5vw;
 }
 .menuItem{
   font-size: 2vh;
