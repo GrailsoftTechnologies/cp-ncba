@@ -4,6 +4,10 @@ import { Container, Row, Col, Jumbotron, Button,
   Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
 import CarouselFrame from '../CarouselFrame';
 
+import pic1 from '../../img/1.jpg';
+import pic2 from '../../img/2.jpg';
+import pic3 from '../../img/3.jpg';
+
 
 class Home extends Component {
   render() {
@@ -51,7 +55,7 @@ class Home extends Component {
           <Row>
             <Col>
               <Card>
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <CardImg top width="100%" src={pic1} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Card title</CardTitle>
                   <CardSubtitle>Card subtitle</CardSubtitle>
@@ -62,7 +66,7 @@ class Home extends Component {
             </Col>
             <Col>
               <Card>
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <CardImg top width="100%" src={pic2} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Card title</CardTitle>
                   <CardSubtitle>Card subtitle</CardSubtitle>
@@ -73,7 +77,7 @@ class Home extends Component {
             </Col>
             <Col>
               <Card>
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <CardImg top width="100%" src={pic3} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Card title</CardTitle>
                   <CardSubtitle>Card subtitle</CardSubtitle>
