@@ -11,6 +11,9 @@ import './styles.css';
 import pic1 from '../../img/1.jpg';
 import pic2 from '../../img/2.jpg';
 import pic3 from '../../img/3.jpg';
+import pic4 from '../../img/weebly1.png';
+import pic5 from '../../img/weebly2.png';
+import pic6 from '../../img/weebly3.png';
 
 
 const items = [
@@ -28,6 +31,21 @@ const items = [
     src: pic3,
     altText: 'Slide 3',
     caption: 'Slide 3'
+  },
+	{
+    src: pic4,
+    altText: 'Slide 4',
+    caption: 'Slide 4'
+  },
+  {
+    src: pic5,
+    altText: 'Slide 5',
+    caption: 'Slide 5'
+  },
+  {
+    src: pic6,
+    altText: 'Slide 6',
+    caption: 'Slide 6'
   }
 ];
 
