@@ -22,6 +22,7 @@ render() {
 					</Col>
 					<Col xs="3">
 						<p>A one two</p>
+						<i className="fab fa-facebook"></i>
 					</Col>
 					<Col xs="3">
 						<p>Three Four</p>
