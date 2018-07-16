@@ -5,12 +5,23 @@
 	min-height: 50vh;
 }
 
-
+#jumbo1 {
+	background-image: url("../../img/weebly1.png");
+	color: white;
+}
+#jumbo2 {
+	background-image: url("../../img/weebly2.png");
+	color: white;
+}
+#jumbo3 {
+	background-image: url("../../img/weebly3.png");
+	color: white;
+}
 
 
 body, html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .wrapper {
   height: 100vh;
