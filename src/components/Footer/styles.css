@@ -1,11 +1,12 @@
 .Footer {
   padding: 20px;
   width: 100%;
-	height: 8%;
   color: white;
   background-color: black;
-  font-size: 8px;
-  font-weight: lighter;
-  font: millionaire;
   position: relative;
+}
+
+#footerLogo {
+	height: 80px;
+	width: 80px;
 }
