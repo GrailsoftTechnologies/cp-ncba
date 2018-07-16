@@ -22,7 +22,10 @@ render() {
 					</Col>
 					<Col xs="3">
 						<p>A one two</p>
-						<i className="fab fa-facebook"></i>
+						<i className="mediaIcon fab fa-instagram"></i>
+						<i className="mediaIcon fab fa-facebook"></i>
+						<i className="mediaIcon fab fa-twitter"></i>
+						<i className="mediaIcon fab fa-youtube"></i>
 					</Col>
 					<Col xs="3">
 						<p>Three Four</p>

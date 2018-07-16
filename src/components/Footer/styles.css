@@ -10,3 +10,8 @@
 	height: 80px;
 	width: 80px;
 }
+
+.mediaIcon {
+	border-top: 1px white solid;
+	margin: 10px;
+}
