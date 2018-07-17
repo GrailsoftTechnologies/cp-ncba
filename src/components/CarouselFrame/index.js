@@ -107,6 +107,7 @@ class CarouselFrame extends Component {
 	        activeIndex={activeIndex}
 	        next={this.next}
 	        previous={this.previous}
+					
 	      >
 	        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
 	        {slides}
