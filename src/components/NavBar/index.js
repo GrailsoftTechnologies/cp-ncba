@@ -18,7 +18,7 @@ class NavBar extends Component {
 	}
   render() {
     return (
-			<div className="NavBar">
+			<div className="NavBar sticky-top">
 				<Navbar expand="md" className={this.props.className}>
 	        <NavbarBrand href={"#"}>
 	          <img id="bamLogo" src={Logo} alt='the brick and motor logo'></img>
