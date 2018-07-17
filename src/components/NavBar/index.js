@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavbarToggler, Collapse, NavbarBrand, NavLink } from 'reactstrap';
 import './styles.css';
 import Logo from '../../img/templogo.png';
@@ -21,8 +20,8 @@ class NavBar extends Component {
     return (
 			<div className="NavBar">
 				<Navbar expand="md" className={this.props.className}>
-	        <NavbarBrand>
-	          <Link to="/"><img id="bamLogo" src={Logo} alt='the brick and motor logo'></img></Link>
+	        <NavbarBrand href={"#"}>
+	          <img id="bamLogo" src={Logo} alt='the brick and motor logo'></img>
 	        </NavbarBrand>
 	        <NavbarToggler onClick={this.toggle}/>
 	        <Collapse isOpen={this.state.isOpen} navbar>
