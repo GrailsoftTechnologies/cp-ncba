@@ -13,7 +13,6 @@
 .addressBox {
 	line-height: 16px;
 	padding: 0px;
-	text-align: left;
 }
 
 #footerLogo {
@@ -31,3 +30,11 @@
 	border-top: 1px white solid;
 	margin: 10px;
 }
+
+@media (min-width: 576px) {
+	.addressBox {
+		line-height: 16px;
+		padding: 0px;
+		text-align: left;
+	}
+ }
