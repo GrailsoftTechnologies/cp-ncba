@@ -12,10 +12,16 @@
 #jumbo2 {
 	background-image: url("../../img/weebly2.png");
 	color: white;
+	text-align: left;
 }
 #jumbo3 {
 	background-image: url("../../img/weebly3.png");
 	color: white;
+	text-align: right;
+}
+
+#contentContainer{
+	margin-top: 25px;
 }
 
 

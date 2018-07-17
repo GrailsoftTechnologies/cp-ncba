@@ -14,12 +14,11 @@ class Home extends Component {
 		return(
 			<div className="Home">
 				<CarouselFrame/>
-        <Container>
+        <Container id="contentContainer">
           <Row>
             <Col>
               <Jumbotron id="jumbo1">
-                <h1 className="display-3">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                <h1 className="display-3">Here's a content box</h1>
                 <hr className="my-2" />
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                 <p className="lead">
@@ -31,7 +30,6 @@ class Home extends Component {
           <Row>
             <Col>
               <Jumbotron id="jumbo2">
-                <h1 className="display-3">Hello, world!</h1>
                 <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
                 <hr className="my-2" />
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -42,9 +40,8 @@ class Home extends Component {
             </Col>
             <Col>
               <Jumbotron id="jumbo3">
-                <h1 className="display-3">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr className="my-2" />
+                <h1 className="display-5">More Content Here</h1>
+								<hr className="my-2" />
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                 <p className="lead">
                   <Button color="primary">Learn More</Button>
