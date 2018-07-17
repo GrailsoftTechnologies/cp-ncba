@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
+import { Jumbotron, Container } from 'reactstrap';
 import './styles.css';
 
 class Reviews extends Component {
@@ -42,12 +43,11 @@ class Reviews extends Component {
 	render() {
 
 	  return(
-	  	<div>
-				<p>Reviews</p>
+	  	<Container>
 				{this.state.content.map(function(post, index){
-						return(<div key={index}>{ReactHtmlParser(post)}</div>)
+						return(<Jumbotron key={index}>{ReactHtmlParser(post)}</Jumbotron>)
 					})}
-			</div>
+			</Container>
 	    );
 	  }
 	}
