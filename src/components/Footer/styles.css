@@ -6,12 +6,23 @@
   position: relative;
 }
 
+.addressBox {
+	line-height: 16px;
+	padding: 0px;
+	text-align: left;
+}
+
 #footerLogo {
 	height: 80px;
 	width: 80px;
 }
 
 .mediaIcon {
+	border-top: 1px black solid;
+	margin: 10px;
+}
+
+.mediaIcon:hover {
 	border-top: 1px white solid;
 	margin: 10px;
 }

@@ -11,19 +11,18 @@ render() {
     <div className="Footer">
       <Container>
 				<Row>
-					<Col xs="3">
+					<Col xs="2">
 						<img id="footerLogo" src={Logo} alt="footer logo" />
 					</Col>
-					<Col xs="3">
-						<h3>Nashville Classical Ballet Academy</h3>
+					<Col xs="4" className="addressBox">
+						<p><strong>Nashville Classical Ballet Academy</strong></p>
 						<p>123 Main St.</p>
 						<p>Nashville TN 12345</p>
 						<p>503-867-5309</p>
 					</Col>
 					<Col xs="3">
-						<p>A one two</p>
+						<a href="http://www.facebook.com"><i className="mediaIcon fab fa-facebook"></i></a>
 						<i className="mediaIcon fab fa-instagram"></i>
-						<i className="mediaIcon fab fa-facebook"></i>
 						<i className="mediaIcon fab fa-twitter"></i>
 						<i className="mediaIcon fab fa-youtube"></i>
 					</Col>
