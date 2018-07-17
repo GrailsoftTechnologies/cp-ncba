@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.Footer a{
+	color: white;
+}
+
 .addressBox {
 	line-height: 16px;
 	padding: 0px;
@@ -19,6 +23,7 @@
 
 .mediaIcon {
 	border-top: 1px black solid;
+	padding-top: 10px;
 	margin: 10px;
 }
 
