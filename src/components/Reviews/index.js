@@ -7,7 +7,7 @@ class Reviews extends Component {
 		super(props);
 
 		this.state = {
-			content : ["empty"],
+			content : [],
 		}
 
 	}
@@ -17,10 +17,8 @@ class Reviews extends Component {
       .then(res => res.json())
       .then(
         (result) => {
-					console.log(result.items);
 					let myMap = result.items;
 					myMap.forEach( (item) => {
-						console.log(item.content);
 						this.setState({
 							content: [
 								...this.state.content,
@@ -28,7 +26,6 @@ class Reviews extends Component {
 							]
 						});
 					});
-					console.log(this.state);
         },
         (error) => {
           this.setState({
@@ -36,7 +33,6 @@ class Reviews extends Component {
           });
         }
       )
-			console.log(this.state);
 	}
 
 	componentDidMount(){
@@ -44,10 +40,13 @@ class Reviews extends Component {
 	}
 
 	render() {
+
 	  return(
 	  	<div>
 				<p>Reviews</p>
-				<p>{ReactHtmlParser(this.state.content)}</p>
+				{this.state.content.map(function(post, index){
+						return(<div key={index}>{ReactHtmlParser(post)}</div>)
+					})}
 			</div>
 	    );
 	  }
