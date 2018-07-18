@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import { Jumbotron, Container } from 'reactstrap';
 import './styles.css';
+import myAPI from '../../api.js'
 
 class Reviews extends Component {
 	constructor(props){
@@ -14,7 +15,8 @@ class Reviews extends Component {
 	}
 
 	mapContentToState(){
-		fetch("https://www.googleapis.com/blogger/v3/blogs/6105946992458304803/posts/?key=AIzaSyAxXlgJkFdgB4tiD5xCG9HOjX2ENWgZZlU")
+		let fetchAddress = "https://www.googleapis.com/blogger/v3/blogs/6105946992458304803/posts/?key="+myAPI.blogger;
+		fetch(fetchAddress)
       .then(res => res.json())
       .then(
         (result) => {
@@ -38,6 +40,7 @@ class Reviews extends Component {
 
 	componentDidMount(){
 		this.mapContentToState();
+		console.log(myAPI.blogger);
 	}
 
 	render() {
