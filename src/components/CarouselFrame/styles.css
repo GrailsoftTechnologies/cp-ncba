@@ -1,4 +1,7 @@
-#carouselBackground {
-	width: 100vw;
-	min-height: 80vh;
+.carouselBackground {
+	height: 80vh;
+	background-color: black;
+}
+#carouselImage {
+	height: 80vh;
 }

@@ -95,7 +95,7 @@ class CarouselFrame extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} id="carouselBackground"/>
+          <img src={item.src} alt={item.altText} id="carouselImage"/>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
@@ -107,7 +107,7 @@ class CarouselFrame extends Component {
 	        activeIndex={activeIndex}
 	        next={this.next}
 	        previous={this.previous}
-					
+					className="carouselBackground"
 	      >
 	        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
 	        {slides}
