@@ -3,7 +3,6 @@ import './styles.css';
 import { Media } from 'reactstrap';
 
 import YouTubeFrame from '../YouTubeFrame';
-import Logo from '../../img/templogo.png';
 
 class Gallery extends Component {
 render() {
