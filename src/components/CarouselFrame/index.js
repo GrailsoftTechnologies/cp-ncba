@@ -19,13 +19,14 @@ import pic6 from '../../img/weebly3.png';
 const items = [
   {
     src: pic1,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: 'After completing a career as a professional ballet dancer with San Francisco Ballet, Aaron Orza has grown into the role of freelance Ballet Master. He received mentorship from the best the ballet world has to offer and has had the privilege of performing with world-renowned companies and artists. His first big break came when he was just fourteen',
+    caption: 'Example Slide 1',
+		className: 'specialClass'
   },
   {
     src: pic2,
     altText: 'Slide 2',
-    caption: 'Slide 2'
+    caption: 'Example Slide 2'
   },
   {
     src: pic3,
@@ -96,7 +97,7 @@ class CarouselFrame extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} id="carouselImage"/>
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <CarouselCaption captionText={item.altText} captionHeader={item.caption} className={item.className}/>
         </CarouselItem>
       );
     });
