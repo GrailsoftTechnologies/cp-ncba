@@ -6,17 +6,17 @@ class YouTubeFrame extends Component {
     return (
       <div>
         <iframe id="player" type="text/html" width={this.props.width} height={this.props.height}
-  src="http://www.youtube.com/embed?listType=playlist&list=PLXeXlqUgjSWNAZFPJB6rf7uOBUtvEjfJD"
-  frameBorder="0" title="YTplaylist1"></iframe>
+  src={"http://www.youtube.com/embed?listType=playlist&list=" + this.props.src}
+  frameBorder="0" title="YTplaylist"></iframe>
       </div>
     );
   }
 }
 
 YouTubeFrame.defaultProps = {
-	src: "http://www.youtube.com/embed?listType=playlist&list=PLXeXlqUgjSWNAZFPJB6rf7uOBUtvEjfJD",
+	src: "PLXeXlqUgjSWNAZFPJB6rf7uOBUtvEjfJD",
 	width: 640,
-	height: 190,
+	height: 390,
 }
 
 export default YouTubeFrame;
