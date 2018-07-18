@@ -15,7 +15,7 @@ class Reviews extends Component {
 	}
 
 	mapContentToState(){
-		let fetchAddress = "https://www.googleapis.com/blogger/v3/blogs/6105946992458304803/posts/?key="+myAPI.blogger;
+		let fetchAddress = "https://www.googleapis.com/blogger/v3/blogs/7025349432715574756/posts/?key="+myAPI.blogger;
 		fetch(fetchAddress)
       .then(res => res.json())
       .then(
