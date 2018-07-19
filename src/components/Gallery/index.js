@@ -8,7 +8,6 @@ class Gallery extends Component {
 render() {
   return(
   	<div>
-			<YouTubeFrame />
       <Media>
        <Media right href="#">
         <YouTubeFrame src="PLXeXlqUgjSWOq9BGX4j4WbzBJ5OC7OpUD"/>
