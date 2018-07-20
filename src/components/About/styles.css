@@ -1,4 +1,11 @@
-.aboutWrapper {
-  margin: auto;
-  max-width: 1200px;
+.About {
+
+}
+
+h3 {
+	text-align: left;
+}
+.col {
+	background-color: #e8e8e8;
+	border-radius: 10px;
 }
