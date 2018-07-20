@@ -8,32 +8,14 @@ import {
 } from 'reactstrap';
 import './styles.css';
 
-import pic1 from '../../img/weebly1.png';
-import pic2 from '../../img/weebly2.png';
-import pic3 from '../../img/weebly3.png';
-import pic4 from '../../img/weebly4.png';
+import pic1 from '../../img/weebly4.png';
 
 const items = [
   {
-    src: pic4,
-    altText: 'Welcome',
+    src: pic1,
+    altText: 'Aaron Orza, Director',
     caption: 'Nashville Classical Ballet Academy',
 		className: 'specialClass'
-  },
-  {
-    src: pic1,
-    altText: '',
-    caption: ''
-  },
-  {
-    src: pic2,
-    altText: '',
-    caption: ''
-  },
-	{
-    src: pic3,
-    altText: '',
-    caption: ''
   }
 ];
 
