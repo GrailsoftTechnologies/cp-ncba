@@ -30,39 +30,24 @@ render() {
 		}
 	}
   return(
-  	<div className="Gallery">
-      <Container>
-				<Row>
-					<Col>
-						<YouTubeFrame src="PLXeXlqUgjSWOq9BGX4j4WbzBJ5OC7OpUD" height={winY} width={winX}/>
-					</Col>
-					<Col>
-						<ol>
-							<li>
-								Video 1
-							</li>
-							<li>
-								Video 2
-							</li>
-							<li>
-								Video 3
-							</li>
-							<li>
-								Video 4
-							</li>
-						</ol>
-					</Col>
-				</Row>
-				<Row>
-					<Col sm="9">
-						<YouTubeFrame src="PLXeXlqUgjSWNzdoC-wIJwJaQ-8jMqth6G" height={winY} width={winX}/>
-					</Col>
-					<Col sm="3">
-						<p>More Words</p>
-					</Col>
-				</Row>
-			</Container>
-		</div>
+    <Container className="Gallery">
+			<Row>
+				<Col>
+					<YouTubeFrame src="PLXeXlqUgjSWOq9BGX4j4WbzBJ5OC7OpUD" height={winY} width={winX}/>
+				</Col>
+				<Col>
+					<p>Some description</p>
+				</Col>
+			</Row>
+			<Row>
+				<Col>
+					<YouTubeFrame src="PLXeXlqUgjSWNzdoC-wIJwJaQ-8jMqth6G" height={winY} width={winX}/>
+				</Col>
+				<Col>
+					<p>Another description</p>
+				</Col>
+			</Row>
+		</Container>
     );
   }
 }
