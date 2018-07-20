@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import './styles.css';
 
-import Logo from '../../img/templogo.png';
+import Logo from '../../img/logo.png';
 
 
 class Footer extends Component {

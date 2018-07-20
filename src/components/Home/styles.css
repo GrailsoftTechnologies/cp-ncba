@@ -60,12 +60,6 @@ body, html {
   height: 60%;
   min-height: 400px;
 }
-.bg1::after {
-  background-image: url('../../img/image5.jpeg');
-}
-.bg2::after {
-  background-image: url('../../img/image4.jpeg');
-}
 @media only screen and (max-device-width: 1366px) {
     .parallax {
         background-attachment: scroll;

@@ -8,45 +8,32 @@ import {
 } from 'reactstrap';
 import './styles.css';
 
-import pic1 from '../../img/1.jpg';
-import pic2 from '../../img/2.jpg';
-import pic3 from '../../img/3.jpg';
-import pic4 from '../../img/weebly1.png';
-import pic5 from '../../img/weebly2.png';
-import pic6 from '../../img/weebly3.png';
-
+import pic1 from '../../img/weebly1.png';
+import pic2 from '../../img/weebly2.png';
+import pic3 from '../../img/weebly3.png';
+import pic4 from '../../img/weebly4.png';
 
 const items = [
   {
-    src: pic1,
-    altText: 'After completing a career as a professional ballet dancer with San Francisco Ballet, Aaron Orza has grown into the role of freelance Ballet Master. He received mentorship from the best the ballet world has to offer and has had the privilege of performing with world-renowned companies and artists. His first big break came when he was just fourteen',
-    caption: 'Example Slide 1',
+    src: pic4,
+    altText: 'Welcome',
+    caption: 'Nashville Classical Ballet Academy',
 		className: 'specialClass'
   },
   {
-    src: pic2,
-    altText: 'Slide 2',
-    caption: 'Example Slide 2'
+    src: pic1,
+    altText: '',
+    caption: ''
   },
   {
-    src: pic3,
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    src: pic2,
+    altText: '',
+    caption: ''
   },
 	{
-    src: pic4,
-    altText: 'Slide 4',
-    caption: 'Slide 4'
-  },
-  {
-    src: pic5,
-    altText: 'Slide 5',
-    caption: 'Slide 5'
-  },
-  {
-    src: pic6,
-    altText: 'Slide 6',
-    caption: 'Slide 6'
+    src: pic3,
+    altText: '',
+    caption: ''
   }
 ];
 
