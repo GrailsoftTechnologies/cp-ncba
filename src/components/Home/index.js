@@ -7,14 +7,23 @@ import CarouselFrame from '../CarouselFrame';
 import pic1 from '../../img/1.jpg';
 import pic2 from '../../img/2.jpg';
 import pic3 from '../../img/3.jpg';
+import pic4 from '../../img/weebly4.png';
 
 
 class Home extends Component {
   render() {
 		return(
 			<div className="Home">
-				<CarouselFrame/>
         <Container id="contentContainer">
+					<Row>
+						<Col id="bgimage">
+							<div className="bgtext">
+								<h1>Nashville Classical Ballet Academy</h1>
+								<h2>Aaron Orza, Director</h2>
+							</div>
+							<img src={pic4} alt="background picture" />
+						</Col>
+					</Row>
           <Row>
             <Col>
               <Jumbotron id="jumbo1">
