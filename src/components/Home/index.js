@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import './styles.css';
-import { Container, Row, Col, Jumbotron, Button,
-  Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
+import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 import CarouselFrame from '../CarouselFrame';
 
-import pic1 from '../../img/1.jpg';
-import pic2 from '../../img/2.jpg';
-import pic3 from '../../img/3.jpg';
 import pic4 from '../../img/weebly4.png';
 
 
