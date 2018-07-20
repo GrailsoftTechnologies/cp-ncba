@@ -2,10 +2,10 @@
 
 }
 
-h3 {
+.About h3 {
 	text-align: left;
 }
-.col {
+.About .col {
 	background-color: #e8e8e8;
 	border-radius: 10px;
 }
