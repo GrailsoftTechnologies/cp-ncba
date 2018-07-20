@@ -23,11 +23,11 @@ class Home extends Component {
           <Row>
             <Col>
               <Jumbotron id="jumbo1">
-                <h1 className="display-3">Here's a content box</h1>
+                <h1 className="display-3">Classical Ballet Classes</h1>
                 <hr className="my-2" />
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p>This can be a link for the about section</p>
                 <p className="lead">
-                  <Button color="primary">Learn More</Button>
+                  <Button href={"#/About"} color="secondary">Learn More</Button>
                 </p>
               </Jumbotron>
             </Col>
@@ -35,21 +35,21 @@ class Home extends Component {
           <Row>
             <Col>
               <Jumbotron id="jumbo2">
-                <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p className="lead">Different Classes and Levels of Instuction</p>
                 <hr className="my-2" />
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p>This can be a link for the Programs Section</p>
                 <p className="lead">
-                  <Button color="primary">Learn More</Button>
+                  <Button href={"#/Programs"} color="primary">See Classes</Button>
                 </p>
               </Jumbotron>
             </Col>
             <Col>
               <Jumbotron id="jumbo3">
-                <h1 className="display-5">More Content Here</h1>
+                <h1 className="display-5">Support the School</h1>
 								<hr className="my-2" />
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p>Here's a link to paypal. A donation page can also be added, as well as a menu item</p>
                 <p className="lead">
-                  <Button color="primary">Learn More</Button>
+                  <Button href={"https://www.paypal.com"} color="success">Donate</Button>
                 </p>
               </Jumbotron>
             </Col>
