@@ -21,7 +21,7 @@ class NavBar extends Component {
 			<div className="NavBar sticky-top">
 				<Navbar expand="md" className={this.props.className}>
 	        <NavbarBrand href={"#"}>
-	          <img id="bamLogo" src={Logo} alt='the brick and motor logo'></img>
+	          <img id="NCBALogo" src={Logo} alt='NCBA logo'></img>
 	        </NavbarBrand>
 	        <NavbarToggler onClick={this.toggle}/>
 	        <Collapse isOpen={this.state.isOpen} navbar>
