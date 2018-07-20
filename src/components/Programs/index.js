@@ -18,9 +18,12 @@ render() {
 				        <Container fluid>
 				          <h1 className="display-3">Program Information</h1>
 				          <p className="lead">
-										Descriptions of classes.
+										Nashville Ballet Classical Ballet Academy offers year-round instruction in classical ballet for students in Levels __ and will also hold a __ week summer intensive from Monday, June __, 2019 through Saturday, July __, 2019.
 									</p>
 				        </Container>
+								<p className="lead">
+                  <Button href={"#/Schedule"} color="success">See Full Schedule</Button>
+                </p>
 				      </Jumbotron>
 						</Col>
 					</Row>
