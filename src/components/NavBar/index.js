@@ -7,6 +7,7 @@ class NavBar extends Component {
 	constructor(props){
 		super(props);
 		this.toggle = this.toggle.bind(this);
+		this.toggle2 = this.toggle2.bind(this);
 		this.state = {
 			isOpen : false
 		}
@@ -16,6 +17,13 @@ class NavBar extends Component {
 			isOpen : !this.state.isOpen
 		})
 	}
+	toggle2() {
+		if (this.state.isOpen) {
+			this.setState({
+	      isOpen: false
+	    });
+		}
+  }
   render() {
     return (
 			<div className="NavBar sticky-top">
@@ -27,22 +35,22 @@ class NavBar extends Component {
 	        <Collapse isOpen={this.state.isOpen} navbar>
 	          <Nav className="ml-auto" navbar>
 							<NavItem>
-								<NavLink href={"#/About"} className="menuItem">About</NavLink>
+								<NavLink href={"#/About"} onClick={this.toggle2} className="menuItem">About</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Programs"} className="menuItem">Programs</NavLink>
+								<NavLink href={"#/Programs"} onClick={this.toggle2} className="menuItem">Programs</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Gallery"} className="menuItem">Gallery</NavLink>
+								<NavLink href={"#/Gallery"} onClick={this.toggle2} className="menuItem">Gallery</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Schedule"} className="menuItem">Schedule</NavLink>
+								<NavLink href={"#/Schedule"} onClick={this.toggle2} className="menuItem">Schedule</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Reviews"} className="menuItem">Reviews</NavLink>
+								<NavLink href={"#/Reviews"} onClick={this.toggle2} className="menuItem">Reviews</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Contact"} className="menuItem">Contact</NavLink>
+								<NavLink href={"#/Contact"} onClick={this.toggle2} className="menuItem">Contact</NavLink>
 							</NavItem>
 	          </Nav>
 	        </Collapse>
