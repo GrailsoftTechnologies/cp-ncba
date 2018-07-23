@@ -8,7 +8,7 @@ render() {
       <Container className="About">
         <Row>
           <Col>
-						<h3>
+						<h3 id="one">
 							A little about Aaron...
 						</h3>
             <p>
@@ -27,7 +27,7 @@ render() {
 							Today, Aaron is proud to call Nashville, Tennessee home and is delighted to have the opportunity to bring his passion for the art of dance to Nashville Classical Academy.
 						</p>
 						<hr className="my-2" />
-						<h3>
+						<h3 id="two">
 							About Nashville Classical Ballet Academy
 						</h3>
 						<p>
