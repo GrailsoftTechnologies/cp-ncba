@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
-import CarouselFrame from '../CarouselFrame';
 
 import pic4 from '../../img/weebly4.png';
 
@@ -17,7 +16,7 @@ class Home extends Component {
 								<h1>Nashville Classical Ballet Academy</h1>
 								<h2>Aaron Orza, Director</h2>
 							</div>
-							<img src={pic4} alt="background picture" />
+							<img src={pic4} alt="background" />
 						</Col>
 					</Row>
           <Row>

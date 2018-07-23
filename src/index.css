@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Ballerine Script';
+    src: url('font/Ballerine Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bluebell';
+    src: url('font/Bluebell.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Darleston';
+    src: url('font/Darleston.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exmouth';
+    src: url('font/exmouth_.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
