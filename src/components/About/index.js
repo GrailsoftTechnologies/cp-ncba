@@ -1,11 +1,43 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import './styles.css';
 
 class About extends Component {
 render() {
   return(
       <Container className="About">
+				<Row>
+					<Col>
+						<Jumbotron>
+							<h1 className="display-3">Who we are</h1>
+							<p>
+								Nashville Classical Ballet Academy is designed to prepare dedicated students who seek a professional career path. We provide a complete ballet education encompassing the necessary discipline with a platform of technique to thrive in a professional environment. Time, dedication, and motivation are expected of all who attend NCBA. The academy is composed of 3 levels in which progression is set to compliment the standard and structure of classical ballet. The reputation of the academy is reflected by the students and their talents that we take into consideration once accepted. Our teaching reflects in our students which reflects on the dance society in which we all owe the responsibility to up hold highest standard. Sharing a passion for ballet and building a culture with which our dedicated students can flourish is a gift we will continue to share within our small community.
+							</p>
+						</Jumbotron>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<Jumbotron>
+							<h1 className="display-3">Aaron Orza</h1>
+							<h1 className="display-4">Artistic Director</h1>
+							<p>
+								Aaron Orza completed his ballet education through School of American Ballet and the San Francisco Ballet School. At age 17 he was invited to join SFB where he spent twelve seasons as a chore de ballet member along with performing soloist and principal roles throughout his career. Upon his retirement from the company, Aaron joined the Rock School for Dance Education as ballet master 2015-2017. During his time there many of his students were recognized by other elite schools and companies, even in some cases offered various opportunities. Aaron now resides in Nashville creating NCBA as one of the top schools in the country.
+							</p>
+						</Jumbotron>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<Jumbotron>
+							<h1 className="display-3">Kristin Lindsay</h1>
+							<h1 className="display-4">Assistant Director</h1>
+							<p>
+								Kristin Lindsay started as a student of Marin Dance Theatre under Margaret Swarthout former soloist of the Royal Ballet. Kristin had a professional career with both Ballet Florida and Company C Contemporary Ballet performing and touring for 8 years. She joined the faculty of the Rock School for Dance Education as a teaching artist with success in placing her students into various pre professional summer programs such as the Paris Opera Ballet School. Kristin was also a coach to a student who placed 3rd in Japan Grand Prix. After serving on the faculty of Nashville Ballet for a season she is now Assistant Director to the Nashville Classical Ballet Academy.
+							</p>
+						</Jumbotron>
+					</Col>
+				</Row>
         <Row>
           <Col>
 						<h3 id="one">
