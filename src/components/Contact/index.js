@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Col, Row, Container, Jumbotron } from 'reactstrap';
+import { Col, Row, Container, Jumbotron } from 'reactstrap';
 import "./styles.css";
 
 class Contact extends Component {
