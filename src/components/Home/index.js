@@ -22,9 +22,11 @@ class Home extends Component {
           <Row>
             <Col>
               <Jumbotron id="jumbo1">
-                <h1 className="display-3">Classical Ballet Classes</h1>
+                <h1 className="display-4">Our mission</h1>
                 <hr className="my-2" />
-                <p>This can be a link for the about section</p>
+                <p>
+									Nashville Classical Ballet Academy offers pre-professional classical ballet training and individual coaching for students of a mature level. Our goal is to create an environment of strong work ethic, for learning that fosters needs of those on a career bound track. personal growth in all our students and brings out the best in dancers from all backgrounds.
+								</p>
                 <p className="lead">
                   <Button href={"#/About"} color="secondary">Learn More</Button>
                 </p>
