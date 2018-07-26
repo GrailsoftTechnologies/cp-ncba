@@ -1,59 +1,34 @@
 import React, { Component } from "react";
-import { Button, Form, FormGroup, Label, Input, FormText, Container, Jumbotron } from 'reactstrap';
+import { Button, Col, Row, Container, Jumbotron } from 'reactstrap';
 import "./styles.css";
 
 class Contact extends Component {
   render() {
     return (
-      <Jumbotron>
-        <Container>
-          <Form>
-						<FormGroup>
-              <Label for="firstName">First Name (Required)</Label>
-              <Input type="text" name="firstName" id="firstName" placeholder="" required/>
-							<Label for="lastName">Last Name</Label>
-              <Input type="text" name="lastName" id="lastName" placeholder="" />
-            </FormGroup>
-            <FormGroup>
-              <Label for="email">Email (Required)</Label>
-              <Input type="email" name="email" id="email" placeholder="" required/>
-            </FormGroup>
-            <FormGroup>
-              <Label for="text">Your Message</Label>
-              <Input type="textarea" name="text" id="text" placeholder="Please enter a title if submitting a document"required/>
-            </FormGroup>
-            <FormGroup>
-              <Label for="exampleFile">File</Label>
-              <Input type="file" name="file" id="exampleFile" />
-              <FormText color="muted">
-                Files can be submitted and emailed
-              </FormText>
-            </FormGroup>
-            <FormGroup tag="fieldset">
-              <legend>I'm interested in...</legend>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio1" />{' '}
-                  Learning more about the school
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio1" />{' '}
-                  Applying to be a student
-                </Label>
-              </FormGroup>
-            </FormGroup>
-            <FormGroup check>
-              <Label check>
-                <Input type="checkbox" />{' '}
-                I'm currently enrolled in a ballet program
-              </Label>
-            </FormGroup>
-            <Button>Submit</Button>
-          </Form>
-        </Container>
-			</Jumbotron>
+			<Container>
+				<Row>
+					<Col lg="6">
+						<Jumbotron fluid>
+							<h1 className="display-3">Aaron Orza</h1>
+							<h1 className="display-4">Artistic Director</h1>
+							<h1>
+								<a href="mailto:aorza@ncbacademy.com">aorza@ncbacademy.com</a>
+							</h1>
+							<a href="tel:+14156134104"><h1>(415)-613-4104</h1></a>
+						</Jumbotron>
+					</Col>
+					<Col lg="6">
+						<Jumbotron fluid>
+							<h1 className="display-3">Kristin Lindsay</h1>
+							<h1 className="display-4">Assistant Director</h1>
+							<h1>
+								<a href="mailto:klindsay@ncbacademy.com">klindsay@ncbacademy.com</a>
+							</h1>
+							<a href="tel:+14152720481"><h1>(415)-272-0481</h1></a>
+						</Jumbotron>
+					</Col>
+				</Row>
+			</Container>
     );
   }
 }
