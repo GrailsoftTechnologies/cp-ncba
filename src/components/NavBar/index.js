@@ -29,11 +29,13 @@ class NavBar extends Component {
 			<div className="NavBar sticky-top">
 				<Navbar expand="md" className={this.props.className}>
 	        <NavbarBrand href={"#"}>
-	          <img id="NCBALogo" src={Logo} alt='NCBA logo'></img>
 	        </NavbarBrand>
 	        <NavbarToggler onClick={this.toggle}/>
 	        <Collapse isOpen={this.state.isOpen} navbar>
 	          <Nav className="ml-auto" navbar>
+							<NavItem>
+								<NavLink href={"#/"} onClick={this.toggle2} className="menuItem">Home</NavLink>
+							</NavItem>
 							<NavItem>
 								<NavLink href={"#/About"} onClick={this.toggle2} className="menuItem">About</NavLink>
 							</NavItem>
