@@ -18,11 +18,11 @@ render() {
 				        <Container fluid>
 				          <h1 className="display-3">Program Information</h1>
 				          <p className="lead">
-										Nashville Ballet Classical Ballet Academy offers year-round instruction in classical ballet for students in Levels __ and will also hold a __ week summer intensive from Monday, June __, 2019 through Saturday, July __, 2019.
+										Please email assistant director for inquiries. A private lesson will be required for all new students interested in attending NCBA. Parents are strongly encouraged to observe. Families will be contacted shortly after the private lesson for further discussion and from there may be invited to attend a regular scheduled class.
 									</p>
 				        </Container>
 								<p className="lead">
-                  <Button href={"#/Schedule"} color="success">See Full Schedule</Button>
+                  <Button href={"#/Contact"} color="success">Contact Us</Button>
                 </p>
 				      </Jumbotron>
 						</Col>
@@ -32,7 +32,7 @@ render() {
               <Card>
                 <CardImg top width="100%" src={pic1} alt="Card image cap" />
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
+                  <CardTitle>Conditioning</CardTitle>
                   <CardSubtitle>Card subtitle</CardSubtitle>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                   <Button>Button</Button>
@@ -43,7 +43,7 @@ render() {
               <Card>
                 <CardImg top width="100%" src={pic2} alt="Card image cap" />
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
+                  <CardTitle>Technique</CardTitle>
                   <CardSubtitle>Card subtitle</CardSubtitle>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                   <Button>Button</Button>
@@ -54,7 +54,7 @@ render() {
               <Card>
                 <CardImg top width="100%" src={pic3} alt="Card image cap" />
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
+                  <CardTitle>Pointe</CardTitle>
                   <CardSubtitle>Card subtitle</CardSubtitle>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                   <Button>Button</Button>
