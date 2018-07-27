@@ -5,7 +5,7 @@ import "./styles.css";
 class Contact extends Component {
   render() {
     return (
-			<Container>
+			<Container className="Contact">
 				<Row>
 					<Col lg="6">
 						<Jumbotron fluid>
