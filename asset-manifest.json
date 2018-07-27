@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.931ca9d0.css",
-  "main.css.map": "static/css/main.931ca9d0.css.map",
-  "main.js": "static/js/main.e706b6fb.js",
-  "main.js.map": "static/js/main.e706b6fb.js.map",
+  "main.css": "static/css/main.75a49026.css",
+  "main.css.map": "static/css/main.75a49026.css.map",
+  "main.js": "static/js/main.ab4b976c.js",
+  "main.js.map": "static/js/main.ab4b976c.js.map",
   "static/media/1.jpg": "static/media/1.0a3be31b.jpg",
   "static/media/2.jpg": "static/media/2.83383ee6.jpg",
   "static/media/3.jpg": "static/media/3.383bd93b.jpg",
@@ -26,5 +26,6 @@
   "static/media/fa-solid-900.woff": "static/media/fa-solid-900.128d2b0b.woff",
   "static/media/fa-solid-900.woff2": "static/media/fa-solid-900.18d2347a.woff2",
   "static/media/logo.png": "static/media/logo.be1a607d.png",
+  "static/media/paypal.png": "static/media/paypal.35715fe0.png",
   "static/media/weebly4.png": "static/media/weebly4.02a23eac.png"
 }
