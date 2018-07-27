@@ -8,29 +8,29 @@ class Home extends Component {
   render() {
 		return(
 			<div className="Home">
-        <Container id="contentContainer">
+				<Container>
 					<Row>
-						<Col id="bgimage">
-							<div className="bgtext">
+						<Col >
+							<div id="bgtext">
 								<h1>Nashville Classical Ballet Academy</h1>
 								<h3>Aaron Orza - Artistic Director</h3>
 							</div>
-							<img src={pic4} alt="background" />
+							<img id="bgimage" src={pic4} alt="background" />
 						</Col>
 					</Row>
-          <Row>
-            <Col>
-              <Jumbotron fluid>
-                <p className="lead">Different Classes and Levels of Instruction</p>
-                <hr className="my-2" />
-                <p>This can be a link for the Programs Section</p>
-                <p className="lead">
-                  <Button href={"#/Programs"} color="primary">See Classes</Button>
-                </p>
-              </Jumbotron>
-            </Col>
-          </Row>
-        </Container>
+	        <Row>
+	          <Col>
+	            <Jumbotron fluid>
+	              <p className="lead">Different Classes and Levels of Instruction</p>
+	              <hr className="my-2" />
+	              <p>This can be a link for the Programs Section</p>
+	              <p className="lead">
+	                <Button href={"#/Programs"} color="primary">See Classes</Button>
+	              </p>
+	            </Jumbotron>
+	          </Col>
+	        </Row>
+	      </Container>
 			</div>
 		)
   }

@@ -1,9 +1,17 @@
+.Home {
+	background-color: black;
+}
+
+.Home .jumbotron{
+	border-radius: 10px;
+}
+
 #bgimage {
 	width: 100%;
 	background-color: black;
 }
 
-#bgimage .bgtext {
+#bgtext {
 	color: white;
 	position: absolute;
 	text-align: left;
