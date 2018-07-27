@@ -6,25 +6,33 @@ import './styles.css';
 import pic1 from '../../img/1.jpg';
 import pic2 from '../../img/2.jpg';
 import pic3 from '../../img/3.jpg';
+import paypal from '../../img/paypal.png';
 
 class Programs extends Component {
 render() {
   return(
   	<div>
-				<Container>
+				<Container className="Programs">
 					<Row>
 						<Col>
 							<Jumbotron fluid>
 				        <Container fluid>
 				          <h1 className="display-3">Program Information</h1>
 				          <p className="lead">
-										Please email assistant director for inquiries. A private lesson will be required for all new students interested in attending NCBA. Parents are strongly encouraged to observe. Families will be contacted shortly after the private lesson for further discussion and from there may be invited to attend a regular scheduled class.
+										Please email Assistant Director Kristin Lindsay for inquiries. A private lesson will be required for all new students interested in enrolling the Nashville Classical Ballet Academy. Parents are strongly encouraged to observe. Families will be contacted shortly after the private lesson for further discussion, and from there may be invited to attend a regular scheduled class. Payment can be made through PayPal.
 									</p>
 				        </Container>
 								<p className="lead">
                   <Button href={"#/Contact"} color="success">Contact Us</Button>
                 </p>
 				      </Jumbotron>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<Jumbotron fluid>
+								<a href="https://www.paypal.com"><img  id="paypal" src={paypal} alt="paypal"></img></a>
+              </Jumbotron>
 						</Col>
 					</Row>
 					<Row>

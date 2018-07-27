@@ -1,3 +1,9 @@
-.wrapper {
-  padding-bottom: 150px;
+#paypal {
+	width: 50%;
+}
+
+.Programs .jumbotron{
+	justify-content: center;
+	text-align: center;
+	background-color: #e8e8e8;
 }
