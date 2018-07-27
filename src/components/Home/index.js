@@ -3,6 +3,8 @@ import './styles.css';
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 
 import pic4 from '../../img/weebly4.png';
+import paypal from '../../img/paypal.png';
+
 
 
 class Home extends Component {
@@ -14,7 +16,7 @@ class Home extends Component {
 						<Col id="bgimage">
 							<div className="bgtext">
 								<h1>Nashville Classical Ballet Academy</h1>
-								<h2>Aaron Orza, Director</h2>
+								<h3>Aaron Orza - Artistic Director</h3>
 							</div>
 							<img src={pic4} alt="background" />
 						</Col>
@@ -46,12 +48,7 @@ class Home extends Component {
             </Col>
             <Col>
               <Jumbotron id="jumbo3">
-                <h1 className="display-5">Support the School</h1>
-								<hr className="my-2" />
-                <p>Here's a link to paypal. A donation page can also be added, as well as a menu item</p>
-                <p className="lead">
-                  <Button href={"https://www.paypal.com"} color="success">Donate</Button>
-                </p>
+								<a href="https://www.paypal.com"><img  id="paypal" src={paypal} alt="paypal"></img></a>
               </Jumbotron>
             </Col>
           </Row>
