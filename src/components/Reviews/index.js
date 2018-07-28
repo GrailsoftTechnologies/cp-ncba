@@ -46,7 +46,7 @@ class Reviews extends Component {
 	render() {
 
 	  return(
-	  	<Container>
+	  	<Container className="Reviews">
 				{this.state.content.map(function(post, index){
 						return(<Jumbotron key={index}>{ReactHtmlParser(post)}</Jumbotron>)
 					})}

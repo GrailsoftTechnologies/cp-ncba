@@ -46,7 +46,7 @@ render() {
 	}
 	console.log(winY);
   return(
-  	<div>
+  	<div className="Schedule">
 			<CalendarFrame width={winX} height={winY} list={(winX < 568)?true:false}/>
 		</div>
     );
