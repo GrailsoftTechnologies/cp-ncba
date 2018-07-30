@@ -14,7 +14,7 @@ class Contact extends Component {
 	}
 
 	mapContentToState(){
-		let fetchAddress = "https://api.instagram.com/oembed?url=http://instagr.am/p/fA9uwTtkSN/";
+		let fetchAddress = "https://api.instagram.com/oembed?url=http://instagr.am/p/Blt18e-HXSL/";
 		fetch(fetchAddress)
       .then(res => res.json())
       .then(
@@ -64,12 +64,7 @@ class Contact extends Component {
 				</Row>
 				<Row>
 					<Col>
-						<EmbedContainer markup={this.state.content.html}>
-							<article id={`post-${this.state.content.media_id}`}>
-				        <h2>{ this.state.content.html }</h2>
-				        <div dangerouslySetInnerHTML={{ __html: this.state.content.html }} />
-				      </article>
-						</EmbedContainer>
+						<div dangerouslySetInnerHTML={{ __html: this.state.content.html }} />
 					</Col>
 				</Row>
 			</Container>
