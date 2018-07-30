@@ -4,6 +4,39 @@ import EmbedContainer from 'react-oembed-container';
 import "./styles.css";
 
 class Contact extends Component {
+	constructor(props){
+		super(props);
+
+		this.state = {
+			content : [],
+		}
+
+	}
+
+	mapContentToState(){
+		let fetchAddress = "https://api.instagram.com/oembed?url=http://instagr.am/p/fA9uwTtkSN/";
+		fetch(fetchAddress)
+      .then(res => res.json())
+      .then(
+        (result) => {
+					this.setState({
+						content: result
+					})
+					console.log(this.state)
+        },
+        (error) => {
+          this.setState({
+            content: "error"
+          });
+        }
+      )
+	}
+
+	componentDidMount(){
+		this.mapContentToState();
+		console.log(this.state);
+	}
+
   render() {
     return (
 			<Container className="Contact">
@@ -30,8 +63,14 @@ class Contact extends Component {
 					</Col>
 				</Row>
 				<Row>
-					<EmbedContainer>
-					</EmbedContainer>
+					<Col>
+						<EmbedContainer markup={this.state.content.html}>
+							<article id={`post-${this.state.content.media_id}`}>
+				        <h2>{ this.state.content.html }</h2>
+				        <div dangerouslySetInnerHTML={{ __html: this.state.content.html }} />
+				      </article>
+						</EmbedContainer>
+					</Col>
 				</Row>
 			</Container>
     );
