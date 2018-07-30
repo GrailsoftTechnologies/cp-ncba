@@ -8,7 +8,7 @@ class Contact extends Component {
 		super(props);
 
 		this.state = {
-			content : [],
+			content : {html: "nada"},
 		}
 
 	}
@@ -34,10 +34,11 @@ class Contact extends Component {
 
 	componentDidMount(){
 		this.mapContentToState();
-		console.log(this.state);
+
 	}
 
   render() {
+		console.log(this.state);
     return (
 			<Container className="Contact">
 				<Row>
@@ -64,7 +65,17 @@ class Contact extends Component {
 				</Row>
 				<Row>
 					<Col>
-						<div dangerouslySetInnerHTML={{ __html: this.state.content.html }} />
+
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<EmbedContainer
+				      markup={ this.state.content.html }
+				    >
+				      <p>Article text here</p>
+							<div dangerouslySetInnerHTML={{ __html: this.state.content.html }} />
+				    </EmbedContainer>
 					</Col>
 				</Row>
 			</Container>
