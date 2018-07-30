@@ -8,13 +8,14 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-html-parser": "^2.0.2",
+    "react-oembed-container": "^0.3.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "reactstrap": "^6.3.0"
   },
   "scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
