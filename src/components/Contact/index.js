@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Col, Row, Container, Jumbotron } from 'reactstrap';
 import EmbedContainer from 'react-oembed-container';
+import InstagramEmbed from 'react-instagram-embed'
 import "./styles.css";
 
 class Contact extends Component {
@@ -82,6 +83,22 @@ class Contact extends Component {
 				      <p>Article text here</p>
 							<div dangerouslySetInnerHTML={{ __html: this.state.content.html }} />
 				    </EmbedContainer>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<InstagramEmbed
+						  url='https://instagr.am/p/Blt18e-HXSL/'
+						  maxWidth={320}
+						  hideCaption={false}
+						  containerTagName='div'
+						  protocol=''
+						  injectScript
+						  onLoading={() => {}}
+						  onSuccess={() => {}}
+						  onAfterRender={() => {}}
+						  onFailure={() => {}}
+						/>
 					</Col>
 				</Row>
 			</Container>
