@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
 import { Container, Row, Col } from 'reactstrap';
+import InstagramEmbed from 'react-instagram-embed'
 
 import YouTubeFrame from '../YouTubeFrame';
 
@@ -45,6 +46,22 @@ render() {
 				</Col>
 				<Col>
 					<p>Another description</p>
+				</Col>
+			</Row>
+			<Row>
+				<Col>
+					<InstagramEmbed
+						url='https://instagr.am/p/Blt18e-HXSL/'
+						maxWidth={640}
+						hideCaption={false}
+						containerTagName='div'
+						protocol=''
+						injectScript
+						onLoading={() => {}}
+						onSuccess={() => {}}
+						onAfterRender={() => {}}
+						onFailure={() => {}}
+					/>
 				</Col>
 			</Row>
 		</Container>
