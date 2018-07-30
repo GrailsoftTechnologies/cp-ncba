@@ -8,13 +8,15 @@ class Contact extends Component {
 		super(props);
 
 		this.state = {
-			content : {html: "nada"},
+			content : {html: "nada",
+								 media_id: 0},
 		}
 
 	}
 
 	mapContentToState(){
-		let fetchAddress = "https://api.instagram.com/oembed?url=http://instagr.am/p/Blt18e-HXSL/";
+		let fetchAddress = "https://api.instagram.com/oembed?url=http://instagr.am/p/Blt18e-HXSL/&omitscript=true";
+		console.log(fetchAddress);
 		fetch(fetchAddress)
       .then(res => res.json())
       .then(
@@ -33,7 +35,7 @@ class Contact extends Component {
 	}
 
 	componentDidMount(){
-		this.mapContentToState();
+		 this.mapContentToState();
 
 	}
 
@@ -73,6 +75,10 @@ class Contact extends Component {
 						<EmbedContainer
 				      markup={ this.state.content.html }
 				    >
+							<article id={`post-${this.state.content.media_id}`}>
+				        <h2>{ this.state.content.html }</h2>
+				        <div dangerouslySetInnerHTML={{ __html: this.state.content.html }} />
+				      </article>
 				      <p>Article text here</p>
 							<div dangerouslySetInnerHTML={{ __html: this.state.content.html }} />
 				    </EmbedContainer>
