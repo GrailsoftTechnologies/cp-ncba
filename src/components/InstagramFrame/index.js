@@ -20,16 +20,14 @@ class InstagramFrame extends Component {
     .then(res => res.json())
     .then(
       (result) => {
-				console.log(result);
 				let myMap = result.data;
 				myMap.forEach( (data) => {
 					this.setState({
-						instagram: [
-							...this.state.instagram,
+						urls: [
+							...this.state.urls,
 							data.link
 						]
 					});
-					console.log(this.state);
 				});
       },
       (error) => {
@@ -42,32 +40,33 @@ class InstagramFrame extends Component {
 
 	componentWillMount(){
 		this.mapContentToState();
-		console.log(this.state);
 	}
 
 	render() {
+		let list = null;
 		if (this.state.urls[0]){
-			this.state.urls.forEach( (url) => {
-				return (
-					<Row>
-						<Col>
-							<InstagramEmbed
-								url={this.state.instagram[0]}
-								maxWidth={640}
-								hideCaption={false}
-								containerTagName='div'
-								protocol=''
-								injectScript
-								onLoading={() => {}}
-								onSuccess={() => {}}
-								onAfterRender={() => {}}
-								onFailure={() => {}}
-							/>
-						</Col>
-					</Row>
-		    );
-			});
+			list = this.state.urls.map((url, index) =>
+				<Row>
+					<Col>
+						<InstagramEmbed
+							url={this.state.urls[index]}
+							maxWidth={640}
+							hideCaption={false}
+							containerTagName='div'
+							protocol=''
+							injectScript
+							onLoading={() => {}}
+							onSuccess={() => {}}
+							onAfterRender={() => {}}
+							onFailure={() => {}}
+						/>
+					</Col>
+				</Row>
+			);
+			console.log(list);
+			return list;
 		}else{
+
 			return(
 				<p>poop</p>
 			);
