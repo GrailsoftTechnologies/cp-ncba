@@ -21,12 +21,9 @@ class Home extends Component {
 	        <Row>
 	          <Col>
 	            <Jumbotron fluid>
-	              <p className="lead">Different Classes and Levels of Instruction</p>
-	              <hr className="my-2" />
-	              <p>This can be a link for the Programs Section</p>
-	              <p className="lead">
-	                <Button href={"#/Programs"} color="primary">See Classes</Button>
-	              </p>
+	              <h1 id="missionText">
+									Nashville Classical Ballet Academy prepares dedicated students for a professional career in dance. We offer a complete ballet education, providing students with a platform of technique and self-discipline to thrive in any professional environment. We strive to share our passion for ballet, our training and experience in a positive, nurturing culture in which all our students can flourish.
+								</h1>
 	            </Jumbotron>
 	          </Col>
 	        </Row>
