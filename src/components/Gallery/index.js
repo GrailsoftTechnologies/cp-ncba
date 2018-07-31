@@ -51,7 +51,7 @@ render() {
 			<Row>
 				<Col>
 					<InstagramEmbed
-						url='https://instagr.am/p/Blt18e-HXSL/'
+						url='https://instagr.am/p/Bl4m0xInwQl/'
 						maxWidth={640}
 						hideCaption={false}
 						containerTagName='div'
