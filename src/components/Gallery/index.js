@@ -1,75 +1,12 @@
 import React, { Component } from 'react';
 import './styles.css';
 import { Container, Row, Col } from 'reactstrap';
-import InstagramEmbed from 'react-instagram-embed';
+
 
 import YouTubeFrame from '../YouTubeFrame';
-import myAPI from '../../api.js'
+import InstagramFrame from '../InstagramFrame';
 
 class Gallery extends Component {
-	constructor(props){
-		super(props);
-
-		this.state = {
-			instagram : {},
-		}
-
-	}
-
-	mapContentToState(){
-		let fetchAddress = "https://api.instagram.com/v1/users/self/media/recent/?access_token="+myAPI.instagram;
-		fetch(fetchAddress)
-    .then(res => res.json())
-    .then(
-      (result) => {
-				console.log(result);
-				let myMap = result.data;
-				myMap.forEach( (data) => {
-					this.setState({
-						instagram: [
-							...this.state.instagram,
-							data.link
-						]
-					});
-					console.log(this.state);
-				});
-      },
-      (error) => {
-        this.setState({
-          content: "error"
-        });
-      }
-  	)
-	}
-
-	renderIG(){
-		this.state.instagram.forEach( (url) => {
-			return(
-				<Row>
-					<Col>
-						<InstagramEmbed
-							url={url}
-							maxWidth={640}
-							hideCaption={false}
-							containerTagName='div'
-							protocol=''
-							injectScript
-							onLoading={() => {}}
-							onSuccess={() => {}}
-							onAfterRender={() => {}}
-							onFailure={() => {}}
-						/>
-					</Col>
-				</Row>
-			);
-		});
-	}
-
-	componentWillMount(){
-		this.mapContentToState();
-		console.log(this.state);
-	}
-
 	render() {
 		let winX = 768;
 		let winY = 468;
@@ -112,7 +49,6 @@ class Gallery extends Component {
 						<p>Another description</p>
 					</Col>
 				</Row>
-				{this.renderIG}
 			</Container>
 	  );
 	}
