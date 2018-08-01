@@ -46,11 +46,11 @@ class InstagramFrame extends Component {
 		let list = null;
 		if (this.state.urls[0]){
 			list = this.state.urls.map((url, index) =>
-				<Row>
+				<Row key={index}>
 					<Col>
 						<InstagramEmbed
 							url={this.state.urls[index]}
-							maxWidth={640}
+							maxWidth={this.props.width}
 							hideCaption={false}
 							containerTagName='div'
 							protocol=''
@@ -75,9 +75,8 @@ class InstagramFrame extends Component {
 }
 
 InstagramFrame.defaultProps = {
-	src: "PLXeXlqUgjSWNAZFPJB6rf7uOBUtvEjfJD",
-	width: 640,
-	height: 390,
+	url: "PLXeXlqUgjSWNAZFPJB6rf7uOBUtvEjfJD",
+	width: 340,
 }
 
 export default InstagramFrame;

@@ -49,7 +49,7 @@ class Gallery extends Component {
 						<p>Another description</p>
 					</Col>
 				</Row>
-				<InstagramFrame className="grams"/>
+				<InstagramFrame width={300}/>
 			</Container>
 	  );
 	}
