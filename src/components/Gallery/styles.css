@@ -2,3 +2,7 @@
 	background-color: #e8e8e8;
 	margin-top: 32px;
 }
+
+.Gallery iframe{
+	margin: auto !important;
+}
