@@ -19,20 +19,10 @@ render() {
 				        <Container fluid>
 				          <h1 className="display-3">Program Information</h1>
 				          <p className="lead">
-										Please email Assistant Director Kristin Lindsay for inquiries. A private lesson will be required for all new students interested in enrolling the Nashville Classical Ballet Academy. Parents are strongly encouraged to observe. Families will be contacted shortly after the private lesson for further discussion, and from there may be invited to attend a regular scheduled class. Payment can be made through PayPal.
+										Text to come
 									</p>
 				        </Container>
-								<p className="lead">
-                  <Button href={"#/Contact"} color="success">Contact Us</Button>
-                </p>
 				      </Jumbotron>
-						</Col>
-					</Row>
-					<Row>
-						<Col>
-							<Jumbotron fluid>
-								<a href="https://www.paypal.com"><img  id="paypal" src={paypal} alt="paypal"></img></a>
-              </Jumbotron>
 						</Col>
 					</Row>
 					<Row>
@@ -40,10 +30,10 @@ render() {
               <Card>
                 <CardImg top width="100%" src={pic1} alt="Card image cap" />
                 <CardBody>
-                  <CardTitle>Conditioning</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <Button>Button</Button>
+                  <CardTitle>How to Enroll</CardTitle>
+                  <CardSubtitle></CardSubtitle>
+                  <CardText>Please email Assistant Director Kristin Lindsay for inquiries. A private lesson will be required for all new students interested in enrolling the Nashville Classical Ballet Academy. Parents are strongly encouraged to observe. Families will be contacted shortly after the private lesson for further discussion, and from there may be invited to attend a regular scheduled class. Payment can be made through PayPal.</CardText>
+                  <Button href={"#/Contact"}>Contact</Button>
                 </CardBody>
               </Card>
             </Col>
@@ -51,10 +41,10 @@ render() {
               <Card>
                 <CardImg top width="100%" src={pic2} alt="Card image cap" />
                 <CardBody>
-                  <CardTitle>Technique</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <Button>Button</Button>
+                  <CardTitle>Curriculum</CardTitle>
+                  <CardSubtitle></CardSubtitle>
+                  <CardText>This can be an openining description of what the classes are like, linking to a more detailed description page</CardText>
+                  <Button>Explore</Button>
                 </CardBody>
               </Card>
             </Col>
@@ -62,10 +52,9 @@ render() {
               <Card>
                 <CardImg top width="100%" src={pic3} alt="Card image cap" />
                 <CardBody>
-                  <CardTitle>Pointe</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <Button>Button</Button>
+                  <CardTitle>Pricing and Payment</CardTitle>
+                  <CardText>This text can be a brief lead into the cost of enrollment, as well as how to go about payment through PayPal</CardText>
+                  <Button>Continue</Button>
                 </CardBody>
               </Card>
             </Col>
