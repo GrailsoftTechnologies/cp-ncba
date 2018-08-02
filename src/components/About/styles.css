@@ -11,7 +11,11 @@
 }
 
 .About .display-4{
-	font-size: 2.75rem;
+	font-size: 5vw;
+}
+
+.About .display-3{
+	font-size: 6vw;
 }
 
 .About img {
