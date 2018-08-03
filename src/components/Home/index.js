@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
-import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
+import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
 import pic4 from '../../img/weebly4.png';
 

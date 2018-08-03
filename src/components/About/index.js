@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import './styles.css';
 
-import sampleProfile from '../../img/sampleProfile.jpg';
+import sampleProfile from '../../img/sampleProfile1.jpg';
 
 class About extends Component {
 render() {
@@ -16,10 +16,12 @@ render() {
 									<h1 className="display-3">Aaron Orza</h1>
 									<h1 className="display-4">Artistic Director</h1>
 								</Col>
-								<Col lg="4">
+								<Col lg="3">
 									<img src={sampleProfile} alt="profile"/>
 								</Col>
+								<Col lg="1"></Col>
 							</Row>
+							<hr className="my-2"></hr>
 							<Row>
 								<Col>
 									<p>
@@ -41,10 +43,12 @@ render() {
 									<h1 className="display-3">Kristin Lindsay</h1>
 									<h1 className="display-4">Assistant Director</h1>
 								</Col>
-								<Col lg="4">
+								<Col lg="3">
 									<img src={sampleProfile} alt="profile"/>
 								</Col>
+								<Col lg="1"></Col>
 							</Row>
+							<hr className="my-2"></hr>
 							<Row>
 								<Col>
 									<p>

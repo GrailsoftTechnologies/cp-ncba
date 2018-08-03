@@ -6,7 +6,6 @@ import './styles.css';
 import pic1 from '../../img/1.jpg';
 import pic2 from '../../img/2.jpg';
 import pic3 from '../../img/3.jpg';
-import paypal from '../../img/paypal.png';
 
 class Programs extends Component {
 render() {

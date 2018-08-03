@@ -46,3 +46,13 @@
 .Home  h3{
 	font-weight: 400;
 }
+
+@media (max-width: 575.98px) {
+	#bgtext h1{
+		font-size: 5.25vw;
+	}
+
+	#bgtext h3{
+		font-size: 4.5vw;
+	}
+}
