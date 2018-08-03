@@ -7,24 +7,19 @@ class Contact extends Component {
     return (
 			<Container className="Contact">
 				<Row>
-					<Col lg="6">
+					<Col>
 						<Jumbotron fluid>
 							<h1 className="display-3">Aaron Orza</h1>
 							<h1 className="display-4">Artistic Director</h1>
-							<h1>
-								<a href="mailto:aorza@ncbacademy.com">aorza@ncbacademy.com</a>
-							</h1>
-							<a href="tel:+14156134104"><h1>(415)-613-4104</h1></a>
-						</Jumbotron>
-					</Col>
-					<Col lg="6">
-						<Jumbotron fluid>
+							<a href="tel:+14156134104">(415)-613-4104</a>
+							<hr className="my-2"></hr>
 							<h1 className="display-3">Kristin Lindsay</h1>
 							<h1 className="display-4">Assistant Director</h1>
+							<a href="tel:+14152720481">(415)-272-0481</a>
+							<hr className="my-2"></hr>
 							<h1>
-								<a href="mailto:klindsay@ncbacademy.com">klindsay@ncbacademy.com</a>
+								<a href="mailto:info@ncbacademy.com">info@ncbacademy.com</a>
 							</h1>
-							<a href="tel:+14152720481"><h1>(415)-272-0481</h1></a>
 						</Jumbotron>
 					</Col>
 				</Row>

@@ -12,14 +12,14 @@ render() {
 					<Col>
 						<Jumbotron>
 							<Row>
-								<Col lg="8">
+								<Col sm="8">
 									<h1 className="display-3">Aaron Orza</h1>
 									<h1 className="display-4">Artistic Director</h1>
 								</Col>
-								<Col lg="3">
+								<Col sm="3">
 									<img src={sampleProfile} alt="profile"/>
 								</Col>
-								<Col lg="1"></Col>
+								<Col sm="1"></Col>
 							</Row>
 							<hr className="my-2"></hr>
 							<Row>
@@ -39,14 +39,14 @@ render() {
 					<Col>
 						<Jumbotron>
 							<Row>
-								<Col lg="8">
+								<Col sm="8">
 									<h1 className="display-3">Kristin Lindsay</h1>
 									<h1 className="display-4">Assistant Director</h1>
 								</Col>
-								<Col lg="3">
+								<Col sm="3">
 									<img src={sampleProfile} alt="profile"/>
 								</Col>
-								<Col lg="1"></Col>
+								<Col sm="1"></Col>
 							</Row>
 							<hr className="my-2"></hr>
 							<Row>

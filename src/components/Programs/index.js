@@ -25,7 +25,7 @@ render() {
 						</Col>
 					</Row>
 					<Row>
-            <Col>
+            <Col lg="4">
               <Card>
                 <CardImg top width="100%" src={pic1} alt="Card image cap" />
                 <CardBody>
@@ -36,7 +36,7 @@ render() {
                 </CardBody>
               </Card>
             </Col>
-            <Col>
+            <Col lg="4">
               <Card>
                 <CardImg top width="100%" src={pic2} alt="Card image cap" />
                 <CardBody>
@@ -47,7 +47,7 @@ render() {
                 </CardBody>
               </Card>
             </Col>
-            <Col>
+            <Col lg="4">
               <Card>
                 <CardImg top width="100%" src={pic3} alt="Card image cap" />
                 <CardBody>
