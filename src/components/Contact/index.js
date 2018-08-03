@@ -17,9 +17,7 @@ class Contact extends Component {
 							<h1 className="display-4">Assistant Director</h1>
 							<a href="tel:+14152720481">(415)-272-0481</a>
 							<hr className="my-2"></hr>
-							<h1>
-								<a href="mailto:info@ncbacademy.com">info@ncbacademy.com</a>
-							</h1>
+							<a href="mailto:info@ncbacademy.com">info@ncbacademy.com</a>
 						</Jumbotron>
 					</Col>
 				</Row>
