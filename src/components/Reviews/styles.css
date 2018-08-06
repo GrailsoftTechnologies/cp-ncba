@@ -1,3 +1,11 @@
 .Reviews {
 	margin-top: 32px;
 }
+
+.Reviews img{
+	max-width: 60vw;
+}
+
+.Reviews iframe{
+	max-width: 60vw;
+}
