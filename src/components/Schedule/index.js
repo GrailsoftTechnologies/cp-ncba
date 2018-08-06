@@ -31,14 +31,14 @@ render() {
 		if(window.innerHeight < 792){
 			if(window.innerHeight < 568){
 				if(window.innerHeight < 276){
-					winY = 300;
+					winY = 200;
 				}
 				else{
-					winY = 400;
+					winY = 300;
 				}
 			}
 			else{
-				winY = 600;
+				winY = 400;
 			}
 		}else{
 			winY = 800;
@@ -48,6 +48,7 @@ render() {
   return(
   	<div className="Schedule">
 			<CalendarFrame width={winX} height={winY} list={(winX < 568)?true:false}/>
+			<CalendarFrame width={winX} height={winY/2} importantDates/>
 		</div>
     );
   }
