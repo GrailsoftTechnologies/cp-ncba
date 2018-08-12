@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import './styles.css';
 
-import sampleProfile from '../../img/sampleProfile1.jpg';
+import aaronProfile from '../../img/aaron.jpeg';
+import kristinProfile from '../../img/kristin.jpeg';
 
 class About extends Component {
 render() {
@@ -12,14 +13,13 @@ render() {
 					<Col>
 						<Jumbotron>
 							<Row>
-								<Col sm="8">
+								<Col sm="6">
 									<h1 className="display-3">Aaron Orza</h1>
 									<h1 className="display-4">Artistic Director</h1>
 								</Col>
-								<Col sm="3">
-									<img src={sampleProfile} alt="profile"/>
+								<Col sm="6">
+									<img src={aaronProfile} alt="profile"/>
 								</Col>
-								<Col sm="1"></Col>
 							</Row>
 							<hr className="my-2"></hr>
 							<Row>
@@ -39,12 +39,12 @@ render() {
 					<Col>
 						<Jumbotron>
 							<Row>
-								<Col sm="8">
+								<Col sm="6">
 									<h1 className="display-3">Kristin Lindsay</h1>
 									<h1 className="display-4">Assistant Director</h1>
 								</Col>
-								<Col sm="3">
-									<img src={sampleProfile} alt="profile"/>
+								<Col sm="5">
+									<img src={kristinProfile} alt="profile"/>
 								</Col>
 								<Col sm="1"></Col>
 							</Row>
@@ -52,7 +52,7 @@ render() {
 							<Row>
 								<Col>
 									<p>
-										Kristin Lindsay trained at Marin Dance Theatre under Margaret Swarthout, former soloist of the Royal Ballet, and danced professionally with Ballet Florida and Company C Contemporary Ballet. As a faculty member at the Rock School for Dance Education, Kristin placed her students into various pre-professional summer programs, such as the Paris Opera Ballet School, and also coached a student who placed 3rd in Japan Grand Prix. After serving on the faculty of Nashville Ballet for a season, Kristin is now Assistant Director to the Nashville Classical Ballet Academy.
+										Kristin studied as a student of Marin Dance Theatre under Margaret Swarthout former soloist of the Royal Ballet. She had a professional career with both Ballet Florida and Company C Contemporary Ballet performing and touring for eight years. Transitioning to a teaching career, she joined the faculty of the Rock School for Dance Education as a teaching artist. With success Kristin was able to place her students into various pre professional summer programs such as English National Ballet and the Paris Opera Ballet School. Upon moving to Tennessee she served on the faculty of Nashville Ballet for one year teaching in both the upper and lower division. Kristin now takes her educational training, professional career, and all teaching experiences to help develop and grow Nashville Classical Ballet Academy.
 									</p>
 								</Col>
 							</Row>
