@@ -14,7 +14,7 @@ render() {
 					<img id="footerLogo" src={Logo} alt="footer logo" />
 				</Col>
 				<Col sm="6" className="addressBox">
-					<p><strong>Nashville Classical Ballet Academy</strong></p>
+					<p><i>Nashville Classical Ballet Academy</i></p>
 					<p>info@ncbacademy.com</p>
 					<p>(415)-613-4104</p>
 				</Col>

@@ -35,18 +35,71 @@ class Gallery extends Component {
 	    <Container className="Gallery">
 				<Row>
 					<Col>
-						<YouTubeFrame src="PLXeXlqUgjSWOq9BGX4j4WbzBJ5OC7OpUD" height={winY} width={winX}/>
+						<YouTubeFrame src="RZNlRsg6sL8" height={winY} width={winX}/>
 					</Col>
 					<Col>
-						<p>Some description</p>
+						<p>Karen Humphrey</p>
+						<p>Teatrul De Balet Sibiu</p>
+						<p>Coached by Aaron Orza</p>
 					</Col>
 				</Row>
 				<Row>
 					<Col>
-						<YouTubeFrame src="PLXeXlqUgjSWNzdoC-wIJwJaQ-8jMqth6G" height={winY} width={winX}/>
+						<YouTubeFrame src="4Mepg8po39g" height={winY} width={winX}/>
 					</Col>
 					<Col>
-						<p>Another description</p>
+						<p>Ayami Sato</p>
+						<p>Arts Ballet Theatre of Florida</p>
+						<p>Coached by Aaron Orza</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<YouTubeFrame src="L5rG9SiFxAU" height={winY} width={winX}/>
+					</Col>
+					<Col>
+						<p>Nicole Ostertag</p>
+						<p>Choreographed by Aaron Orza</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<YouTubeFrame src="hKRMZT781lA" height={winY} width={winX}/>
+					</Col>
+					<Col>
+						<p>Harry Warshaw</p>
+						<p>Pittsburgh Ballet Theatre</p>
+						<p>Coached by Aaron Orza</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<YouTubeFrame src="G33G-SG6Ro4" height={winY} width={winX}/>
+					</Col>
+					<Col>
+						<p>Rocio Aguero</p>
+						<p>Ballet Estable del Teator Colon</p>
+						<p>Coached by Aaron Orza</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<YouTubeFrame src="Sraj3VsihA8" height={winY} width={winX}/>
+					</Col>
+					<Col>
+						<p>Kenna Gold</p>
+						<p>Orlando Ballet Trainee</p>
+						<p>Choreographed by Aaron Orza</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<YouTubeFrame src="ax-I1ZPNTvI" height={winY} width={winX}/>
+					</Col>
+					<Col>
+						<p>Anna Tateda</p>
+						<p>Victoria, BC</p>
+						<p>Choreographed by Aaron Orza</p>
 					</Col>
 				</Row>
 				<InstagramFrame width={300}/>
