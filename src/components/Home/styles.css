@@ -50,9 +50,21 @@
 @media (max-width: 575.98px) {
 	#bgtext h1{
 		font-size: 5.25vw;
+		line-height: .75;
 	}
 
 	#bgtext h3{
 		font-size: 4.5vw;
+		line-height: .75;
+	}
+}
+
+@media (min-width: 1700px) {
+	#bgtext h1{
+		font-size: 2.25vw;
+	}
+
+	#bgtext h3{
+		font-size: 1.5vw;
 	}
 }
