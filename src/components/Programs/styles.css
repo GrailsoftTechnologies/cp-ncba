@@ -3,8 +3,20 @@
 	margin-bottom: 32px;
 }
 
-#paypal {
-	width: 50%;
+#pic1 {
+	min-height: 60%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#pic2 {
+	min-height: 47%;
+}
+
+#pic3 {
+	padding-left: 10%;
+	padding-right: 10%;
+	min-height: 55%;
 }
 
 .Programs .jumbotron{
@@ -21,5 +33,23 @@
 
 	.Programs .display-3{
 		font-size: 8vw;
+	}
+}
+
+@media (min-width: 1200px) {
+	#pic1 {
+		min-height: 60%;
+		max-height: 75%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	#pic2 {
+		padding-top: 20%;
+	}
+	#pic3 {
+		min-height: 55%;
+		max-height: 75%;
+		padding-left: 0%;
+		padding-right: 0%;
 	}
 }

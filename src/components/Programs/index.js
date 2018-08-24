@@ -5,7 +5,7 @@ import './styles.css';
 
 import pic1 from '../../img/image2.jpeg';
 import pic2 from '../../img/image3.jpeg';
-import pic3 from '../../img/3.jpg';
+import pic3 from '../../img/image4.jpg';
 
 class Programs extends Component {
 render() {
@@ -22,9 +22,9 @@ render() {
 						</Col>
 					</Row>
 					<Row>
-            <Col lg="4">
+            <Col xl="4">
               <Card>
-                <CardImg top width="100%" src={pic1} alt="Card image cap" />
+                <CardImg id="pic1" top width="100%" src={pic1} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Audition and Placement</CardTitle>
                   <CardSubtitle></CardSubtitle>
@@ -35,9 +35,9 @@ render() {
                 </CardBody>
               </Card>
             </Col>
-            <Col lg="4">
+            <Col xl="4">
               <Card>
-                <CardImg top width="100%" src={pic2} alt="Card image cap" />
+                <CardImg id="pic2" top width="100%" src={pic2} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Curriculum</CardTitle>
                   <CardSubtitle></CardSubtitle>
@@ -47,9 +47,9 @@ render() {
                 </CardBody>
               </Card>
             </Col>
-            <Col lg="4">
+            <Col xl="4">
               <Card>
-                <CardImg top width="100%" src={pic3} alt="Card image cap" />
+                <CardImg id="pic3" top width="100%" src={pic3} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Pricing</CardTitle>
                   <CardText>
