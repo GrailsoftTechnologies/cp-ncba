@@ -102,7 +102,6 @@ class Gallery extends Component {
 						<p>Choreographed by Aaron Orza</p>
 					</Col>
 				</Row>
-				<InstagramFrame width={300}/>
 			</Container>
 	  );
 	}
