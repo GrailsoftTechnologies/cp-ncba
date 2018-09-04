@@ -34,11 +34,11 @@
   margin-left: 5vw;
 }
 .menuItem{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 767.98px) {
 	.menuItem{
-	  font-size: 1rem;
+	  font-size: 1.25rem;
 	}
 }

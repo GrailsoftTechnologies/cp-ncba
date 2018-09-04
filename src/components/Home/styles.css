@@ -1,5 +1,5 @@
 .Home {
-	background-color: black;
+	background-color: #e8e8e8;
 	min-height: 90vh;
 }
 
@@ -31,6 +31,8 @@
 
 #missionText{
 	font-size: 1.25rem;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #contentContainer{
