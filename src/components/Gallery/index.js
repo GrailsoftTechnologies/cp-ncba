@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
 
 import YouTubeFrame from '../YouTubeFrame';
@@ -35,73 +35,85 @@ class Gallery extends Component {
 	    <Container className="Gallery">
 				<Row>
 					<Col>
-						<YouTubeFrame src="RZNlRsg6sL8" height={winY} width={winX}/>
-					</Col>
-					<Col>
-						<p>Karen Humphrey</p>
-						<p>Teatrul De Balet Sibiu</p>
-						<p>Coached by Aaron Orza</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<YouTubeFrame src="4Mepg8po39g" height={winY} width={winX}/>
-					</Col>
-					<Col>
-						<p>Ayami Sato</p>
-						<p>Arts Ballet Theatre of Florida</p>
-						<p>Coached by Aaron Orza</p>
+						<Jumbotron fluid>
+							<Container fluid>
+								<h1 className="display-3">Media Gallery</h1>
+							</Container>
+						</Jumbotron>
 					</Col>
 				</Row>
-				<Row>
-					<Col>
-						<YouTubeFrame src="L5rG9SiFxAU" height={winY} width={winX}/>
-					</Col>
-					<Col>
-						<p>Nicole Ostertag</p>
-						<p>Choreographed by Aaron Orza</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<YouTubeFrame src="hKRMZT781lA" height={winY} width={winX}/>
-					</Col>
-					<Col>
-						<p>Harry Warshaw</p>
-						<p>Pittsburgh Ballet Theatre</p>
-						<p>Coached by Aaron Orza</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<YouTubeFrame src="G33G-SG6Ro4" height={winY} width={winX}/>
-					</Col>
-					<Col>
-						<p>Rocio Aguero</p>
-						<p>Ballet Estable del Teator Colon</p>
-						<p>Coached by Aaron Orza</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<YouTubeFrame src="Sraj3VsihA8" height={winY} width={winX}/>
-					</Col>
-					<Col>
-						<p>Kenna Gold</p>
-						<p>Orlando Ballet Trainee</p>
-						<p>Choreographed by Aaron Orza</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<YouTubeFrame src="ax-I1ZPNTvI" height={winY} width={winX}/>
-					</Col>
-					<Col>
-						<p>Anna Tateda</p>
-						<p>Victoria, BC</p>
-						<p>Choreographed by Aaron Orza</p>
-					</Col>
-				</Row>
+				<Jumbotron>
+					<Row>
+						<Col>
+							<YouTubeFrame src="RZNlRsg6sL8" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>Karen Humphrey</p>
+							<p>Teatrul De Balet Sibiu</p>
+							<p>Coached by Aaron Orza</p>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<YouTubeFrame src="4Mepg8po39g" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>Ayami Sato</p>
+							<p>Arts Ballet Theatre of Florida</p>
+							<p>Coached by Aaron Orza</p>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<YouTubeFrame src="L5rG9SiFxAU" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>Nicole Ostertag</p>
+							<p>Choreographed by Aaron Orza</p>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<YouTubeFrame src="hKRMZT781lA" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>Harry Warshaw</p>
+							<p>Pittsburgh Ballet Theatre</p>
+							<p>Coached by Aaron Orza</p>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<YouTubeFrame src="G33G-SG6Ro4" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>Rocio Aguero</p>
+							<p>Ballet Estable del Teator Colon</p>
+							<p>Coached by Aaron Orza</p>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<YouTubeFrame src="Sraj3VsihA8" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>Kenna Gold</p>
+							<p>Orlando Ballet Trainee</p>
+							<p>Choreographed by Aaron Orza</p>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<YouTubeFrame src="ax-I1ZPNTvI" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>Anna Tateda</p>
+							<p>Victoria, BC</p>
+							<p>Choreographed by Aaron Orza</p>
+						</Col>
+					</Row>
+				</Jumbotron>
+
 			</Container>
 	  );
 	}

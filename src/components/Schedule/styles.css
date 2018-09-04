@@ -1,3 +1,13 @@
 .Schedule {
 	margin-top: 32px;
 }
+
+@media (max-width: 575.98px) {
+	.Schedule .display-4{
+		font-size: 7vw;
+	}
+
+	.Schedule .display-3{
+		font-size: 8vw;
+	}
+}

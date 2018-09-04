@@ -6,3 +6,13 @@
 .Gallery iframe{
 	margin: auto !important;
 }
+
+@media (max-width: 575.98px) {
+	.Gallery .display-4{
+		font-size: 7vw;
+	}
+
+	.Gallery .display-3{
+		font-size: 8vw;
+	}
+}

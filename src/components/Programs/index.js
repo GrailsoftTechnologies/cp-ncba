@@ -24,6 +24,18 @@ render() {
 					<Row>
             <Col xl="4">
               <Card>
+                <CardImg id="pic2" top width="100%" src={pic2} alt="Card image cap" />
+                <CardBody>
+                  <CardTitle>Curriculum</CardTitle>
+                  <CardSubtitle></CardSubtitle>
+                  <CardText>
+										Nashville Classical Ballet Academy is happy to announce we are opening our doors to the great city of Nashville. We are proud to call ourselves the first classical ballet school to offer an educational experience passed down through generations of legendary dancers and master teachers. This elite training  program is dedicated to teaching the highest standard of ballet education to prepare career bound students. In our program we provide technique, pointe, conditioning, and private coaching to excel the abilities of our dancers. We offer a day program to suit the needs of our most advanced level and an evening program fitting to our intermediate level.
+									</CardText>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col xl="4">
+              <Card>
                 <CardImg id="pic1" top width="100%" src={pic1} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Audition and Placement</CardTitle>
@@ -32,18 +44,6 @@ render() {
 										A private lesson will be required for all new students interested in attending NCBA. Parents are strongly encouraged to observe. Families will be contacted shortly after the private lesson for further discussion and from there may be invited to attend a regular scheduled class. Please email the Assistant Director, Kristin Lindsay for inquiries.
 									</CardText>
                   <Button href={"#/Contact"}>Contact</Button>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col xl="4">
-              <Card>
-                <CardImg id="pic2" top width="100%" src={pic2} alt="Card image cap" />
-                <CardBody>
-                  <CardTitle>Curriculum</CardTitle>
-                  <CardSubtitle></CardSubtitle>
-                  <CardText>
-										Nashville Classical Ballet Academy is happy to announce we are opening our doors to the great city of Nashville. We are proud to call ourselves the first classical ballet school to offer an educational experience passed down through generations of legendary dancers and master teachers. This elite training  program is dedicated to teaching the highest standard of ballet education to prepare career bound students. In our program we provide technique, pointe, conditioning, and private coaching to excel the abilities of our dancers. We offer a day program to suit the needs of our most advanced level and an evening program fitting to our intermediate level.
-									</CardText>
                 </CardBody>
               </Card>
             </Col>

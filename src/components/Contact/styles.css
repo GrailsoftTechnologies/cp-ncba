@@ -6,6 +6,14 @@
 	border-radius: 10px;
 }
 
+.Contact .display-4{
+	font-size: 3vw;
+}
+
+.Contact .display-3{
+	font-size: 4vw;
+}
+
 .Contact a{
 	font-size: 3vw;
 }

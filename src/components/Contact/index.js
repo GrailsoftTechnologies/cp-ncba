@@ -6,6 +6,15 @@ class Contact extends Component {
   render() {
     return (
 			<Container className="Contact">
+        <Row>
+					<Col>
+						<Jumbotron fluid>
+							<Container fluid>
+								<h1 className="display-3">Contact Us</h1>
+							</Container>
+						</Jumbotron>
+					</Col>
+				</Row>
 				<Row>
 					<Col>
 						<Jumbotron fluid>
@@ -13,12 +22,23 @@ class Contact extends Component {
 							<h1 className="display-4">Artistic Director</h1>
 							<a href="tel:+14156134104">(415)-613-4104</a>
 							<p><a href="mailto:aaron@ncbacademy.com">aaron@ncbacademy.com</a></p>
-							<hr className="my-2"></hr>
+						</Jumbotron>
+					</Col>
+				</Row>
+        <Row>
+					<Col>
+						<Jumbotron fluid>
 							<h1 className="display-3">Kristin Lindsay</h1>
 							<h1 className="display-4">Assistant Director</h1>
 							<a href="tel:+14152720481">(415)-272-0481</a>
 							<p><a href="mailto:kristin@ncbacademy.com">kristin@ncbacademy.com</a></p>
-							<hr className="my-2"></hr>
+						</Jumbotron>
+					</Col>
+				</Row>
+        <Row>
+					<Col>
+						<Jumbotron fluid>
+							<h1 className="display-3">Office Contact</h1>
 							<a href="mailto:info@ncbacademy.com">info@ncbacademy.com</a>
 						</Jumbotron>
 					</Col>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
-import { Jumbotron, Container } from 'reactstrap';
+import { Jumbotron, Container, Row, Col } from 'reactstrap';
 import './styles.css';
 import myAPI from '../../api.js'
 
@@ -47,6 +47,15 @@ class Reviews extends Component {
 
 	  return(
 	  	<Container className="Reviews">
+				<Row>
+					<Col>
+						<Jumbotron fluid>
+							<Container fluid>
+								<h1 className="display-3">Student Testimonials</h1>
+							</Container>
+						</Jumbotron>
+					</Col>
+				</Row>
 				{this.state.content.map(function(post, index){
 						return(<Jumbotron key={index}>{ReactHtmlParser(post)}</Jumbotron>)
 					})}

@@ -9,6 +9,15 @@ class About extends Component {
 render() {
   return(
       <Container className="About">
+        <Row>
+          <Col>
+            <Jumbotron fluid>
+              <Container fluid>
+                <h1 className="display-3">About Us</h1>
+              </Container>
+            </Jumbotron>
+          </Col>
+        </Row>
 				<Row>
 					<Col>
 						<Jumbotron>
