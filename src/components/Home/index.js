@@ -12,9 +12,10 @@ class Home extends Component {
 					<Row>
 						<Col >
 							<div id="bgtext">
-								<h1>Nashville Classical Ballet Academy</h1>
-								<h3>Aaron Orza - Artistic Director</h3>
-								<h3>Kristin Lindsay - Assistant Director</h3>
+								<h1>NASHVILLE</h1>
+                <h1>CLASSICAL</h1>
+                <h1>BALLET</h1>
+                <h1>ACADEMY</h1>
 							</div>
 							<img id="bgimage" src={pic4} alt="background" />
 						</Col>
@@ -23,7 +24,7 @@ class Home extends Component {
 	          <Col>
 	            <Jumbotron fluid>
 	              <h1 id="missionText">
-									Nashville Classical Ballet Academy is designed to meet the needs of the dedicated student seeking a professional career in ballet. We offer an elite ballet education, providing students with a refined and sophisticated level of training and self-discipline to thrive in any professional environment. We strive to share our passion for classical ballet, our training and experience in an environment with which all our students can reach success. 
+									Nashville Classical Ballet Academy is designed to meet the needs of the dedicated student seeking a professional career in ballet. We offer an elite ballet education, providing students with a refined and sophisticated level of training and self-discipline to thrive in any professional environment. We strive to share our passion for classical ballet, our training and experience in an environment with which all our students can reach success.
 								</h1>
 	            </Jumbotron>
 	          </Col>
