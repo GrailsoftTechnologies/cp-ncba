@@ -8,23 +8,23 @@ class Schedule extends Component {
 render() {
 	console.log(window.innerWidth);
 	console.log(window.innerHeight);
-	let winX = 1200;
+	let winX = 1110;
 	let winY = 1000;
 	if(window.innerWidth < 1200){
 		if(window.innerWidth < 992){
 			if(window.innerWidth < 768){
 				if(window.innerWidth < 576){
-					winX = 300;
+					winX = 260;
 				}
 				else{
-					winX = 550;
+					winX = 510;
 				}
 			}
 			else{
-				winX = 750;
+				winX = 690;
 			}
 		}else{
-			winX = 950;
+			winX = 930;
 		}
 	}
 
@@ -59,12 +59,12 @@ render() {
 			</Row>
 			<Row>
 				<Col>
-					<CalendarFrame width={winX} height={winY} list={(winX < 568)?true:false}/>
+					<CalendarFrame width={winX} height={winY/1.5} list={(winX < 568)?true:false}/>
 				</Col>
 			</Row>
 			<Row>
 				<Col>
-					<CalendarFrame width={winX} height={winY/2} importantDates/>
+					<CalendarFrame width={winX} height={winY/2.5} importantDates/>
 				</Col>
 			</Row>
 		</Container>

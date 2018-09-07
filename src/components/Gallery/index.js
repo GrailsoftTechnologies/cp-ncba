@@ -14,7 +14,7 @@ class Gallery extends Component {
 			if(window.innerWidth < 992){
 				if(window.innerWidth < 768){
 					if(window.innerWidth < 576){
-						winX = 326;
+						winX = 258;
 						winY = 198;
 					}
 					else{
