@@ -59,12 +59,12 @@ render() {
 			</Row>
 			<Row>
 				<Col>
-					<CalendarFrame width={winX} height={winY/1.5} list={(winX < 568)?true:false}/>
+					<CalendarFrame width={winX} height={winY/1.25} list={(winX < 568)?true:false}/>
 				</Col>
 			</Row>
 			<Row>
 				<Col>
-					<CalendarFrame width={winX} height={winY/2.5} importantDates/>
+					<CalendarFrame width={winX} height={winY/2} importantDates/>
 				</Col>
 			</Row>
 		</Container>

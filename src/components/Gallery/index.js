@@ -4,7 +4,6 @@ import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
 
 import YouTubeFrame from '../YouTubeFrame';
-import InstagramFrame from '../InstagramFrame';
 
 class Gallery extends Component {
 	render() {
