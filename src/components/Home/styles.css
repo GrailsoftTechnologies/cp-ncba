@@ -19,6 +19,8 @@
 
 #bgtext h1{
 	font-size: 3.25vw;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
 }
 #bgtext h1::first-letter{
 	font-size: 6.25vw;
@@ -32,6 +34,7 @@
 	font-size: 1.25rem;
 	margin-left: 10%;
 	margin-right: 10%;
+	font-family: 'Lato', sans-serif;
 }
 
 #contentContainer{
