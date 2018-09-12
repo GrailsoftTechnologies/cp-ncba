@@ -18,25 +18,25 @@ const items = [
   {
     src: pic1,
     altText: '',
-    caption: 'Nashville Classical Ballet Academy',
+    caption: '',
 		className: 'specialClass'
   },
   {
     src: pic2,
     altText: '',
-    caption: 'Nashville Classical Ballet Academy',
+    caption: '',
 		className: 'specialClass'
   },
   {
     src: pic3,
     altText: '',
-    caption: 'Nashville Classical Ballet Academy',
+    caption: '',
 		className: 'specialClass'
   },
   {
     src: pic4,
     altText: '',
-    caption: 'Nashville Classical Ballet Academy',
+    caption: '',
 		className: 'specialClass'
   },
 ];
@@ -109,8 +109,7 @@ class CarouselFrame extends Component {
 	      >
 	        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
 	        {slides}
-	        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-	        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+
 	      </Carousel>
 			</div>
     );
