@@ -14,3 +14,14 @@
 	right: 50%;
 	text-align: left;
 }
+
+#bgtext1 {
+	position: absolute;
+	color: white;
+	top: 5%;
+	bottom: 10%;
+	left: 15%;
+	right: 50%;
+	text-align: left;
+	z-index: 10;
+}

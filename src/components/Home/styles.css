@@ -17,16 +17,16 @@
 	text-align: left;
 }
 
-#bgtext h1{
+#bgtext1 h1{
 	font-size: 3.25vw;
 	font-weight: 600;
 	font-family: 'Roboto', sans-serif;
 }
-#bgtext h1::first-letter{
+#bgtext1 h1::first-letter{
 	font-size: 6.25vw;
 }
 
-#bgtext h3{
+#bgtext1 h3{
 	font-size: 2.5vw;
 }
 
@@ -55,29 +55,29 @@
 }
 
 @media (max-width: 575.98px) {
-	#bgtext h1{
+	#bgtext1 h1{
 		font-size: 5.25vw;
 		line-height: .75;
 	}
-	#bgtext h1::first-letter{
+	#bgtext1 h1::first-letter{
 		font-size: 9.25vw;
 	}
-	#bgtext h3{
+	#bgtext1 h3{
 		font-size: 4.5vw;
 		line-height: .75;
 	}
 }
 
 @media (min-width: 1700px) {
-	#bgtext h1{
+	#bgtext1 h1{
 		font-size: 2.25vw;
 	}
 
-	#bgtext h1::first-letter{
+	#bgtext1 h1::first-letter{
 		font-size: 4.25vw;
 	}
 
-	#bgtext h3{
+	#bgtext1 h3{
 		font-size: 1.5vw;
 	}
 }

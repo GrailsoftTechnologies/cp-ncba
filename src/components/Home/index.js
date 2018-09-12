@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './styles.css';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
+import CarouselFrame from '../CarouselFrame';
 import pic4 from '../../img/weebly4.png';
 
 class Home extends Component {
@@ -20,6 +21,11 @@ class Home extends Component {
 							<img id="bgimage" src={pic4} alt="background" />
 						</Col>
 					</Row>
+          <Row>
+            <Col>
+              <CarouselFrame/>
+            </Col>
+          </Row>
 	        <Row>
 	          <Col>
 	            <Jumbotron fluid>

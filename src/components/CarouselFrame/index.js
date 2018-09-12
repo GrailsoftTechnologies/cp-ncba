@@ -88,6 +88,12 @@ class CarouselFrame extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} id="carouselImage"/>
+          <div id="bgtext1">
+            <h1>NASHVILLE</h1>
+            <h1>CLASSICAL</h1>
+            <h1>BALLET</h1>
+            <h1>ACADEMY</h1>
+          </div>
           <CarouselCaption captionText={item.altText} captionHeader={item.caption} className={item.className}/>
         </CarouselItem>
       );
