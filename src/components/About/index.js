@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import './styles.css';
 
-import aaronProfile from '../../img/aaron.jpeg';
+import aaronProfile from '../../img/aaron.jpg';
 import kristinProfile from '../../img/kristin.jpeg';
 
 class About extends Component {

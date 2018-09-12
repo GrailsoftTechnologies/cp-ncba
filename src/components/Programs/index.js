@@ -3,9 +3,9 @@ import { Container, Row, Col, Jumbotron, Button,
   Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
 import './styles.css';
 
-import pic1 from '../../img/image2.jpeg';
-import pic2 from '../../img/image3.jpeg';
-import pic3 from '../../img/image4.jpg';
+import audition from '../../img/audition.jpg';
+import curriculum from '../../img/curriculum.jpg';
+import pricing from '../../img/pricing.jpg';
 
 class Programs extends Component {
 render() {
@@ -24,7 +24,7 @@ render() {
 					<Row>
             <Col xl="4">
               <Card>
-                <CardImg id="pic2" top width="100%" src={pic2} alt="Card image cap" />
+                <CardImg id="curriculum" top width="100%" src={curriculum} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Curriculum</CardTitle>
                   <CardSubtitle></CardSubtitle>
@@ -36,7 +36,7 @@ render() {
             </Col>
             <Col xl="4">
               <Card>
-                <CardImg id="pic1" top width="100%" src={pic1} alt="Card image cap" />
+                <CardImg id="audition" top width="100%" src={audition} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Audition and Placement</CardTitle>
                   <CardSubtitle></CardSubtitle>
@@ -49,7 +49,7 @@ render() {
             </Col>
             <Col xl="4">
               <Card>
-                <CardImg id="pic3" top width="100%" src={pic3} alt="Card image cap" />
+                <CardImg id="pricing" top width="100%" src={pricing} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>Pricing</CardTitle>
                   <CardText>
