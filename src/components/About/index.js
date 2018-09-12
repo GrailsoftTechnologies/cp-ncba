@@ -21,9 +21,9 @@ render() {
 				<Row>
 					<Col>
 						<Jumbotron>
-							<Row>
+							<Row className="align-items-center">
 								<Col sm="6">
-									<h1 className="display-3">Aaron Orza</h1>
+                  <h1 className="display-3">Aaron Orza</h1>
 									<h1 className="display-4">Artistic Director</h1>
 								</Col>
 								<Col sm="6">
@@ -50,7 +50,7 @@ render() {
 				<Row>
 					<Col>
 						<Jumbotron>
-							<Row>
+							<Row className="align-items-center">
 								<Col sm="6">
 									<h1 className="display-3">Kristin Lindsay</h1>
 									<h1 className="display-4">Assistant Director</h1>
