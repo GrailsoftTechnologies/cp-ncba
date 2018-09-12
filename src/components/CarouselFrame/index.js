@@ -8,15 +8,37 @@ import {
 } from 'reactstrap';
 import './styles.css';
 
-import pic1 from '../../img/weebly4.png';
+import pic1 from '../../img/home1.jpg';
+import pic2 from '../../img/home2.jpg';
+import pic3 from '../../img/home3.jpg';
+import pic4 from '../../img/home4.jpg';
+
 
 const items = [
   {
     src: pic1,
-    altText: 'Aaron Orza, Director',
+    altText: '',
     caption: 'Nashville Classical Ballet Academy',
 		className: 'specialClass'
-  }
+  },
+  {
+    src: pic2,
+    altText: '',
+    caption: 'Nashville Classical Ballet Academy',
+		className: 'specialClass'
+  },
+  {
+    src: pic3,
+    altText: '',
+    caption: 'Nashville Classical Ballet Academy',
+		className: 'specialClass'
+  },
+  {
+    src: pic4,
+    altText: '',
+    caption: 'Nashville Classical Ballet Academy',
+		className: 'specialClass'
+  },
 ];
 
 class CarouselFrame extends Component {
