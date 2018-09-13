@@ -10,7 +10,7 @@ import './styles.css';
 
 import pic1 from '../../img/home1.jpg';
 import pic2 from '../../img/home2.jpg';
-import pic3 from '../../img/home3.jpg';
+import pic3 from '../../img/home3r.jpg';
 import pic4 from '../../img/home4.jpg';
 
 
