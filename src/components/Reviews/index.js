@@ -11,66 +11,48 @@ class Reviews extends Component {
 		this.state = {
 			content : [],
 		}
-
 	}
 
-	mapContentToState(){
+	async fetchContent(mapArray, pageToken){
 		let fetchAddress = "https://www.googleapis.com/blogger/v3/blogs/7025349432715574756/posts/?key="+myAPI.blogger;
+		if(pageToken){
+			fetchAddress += "&pageToken="+pageToken;
+		}
 		fetch(fetchAddress)
-      .then(res => res.json())
-      .then(
-        (result) => {
-					console.log(result);
-					let myMap = result.items;
-					let token = result.nextPageToken
-					console.log(myMap);
-					console.log(token);
-					if (token){
-						let fetchNextAddress = "https://www.googleapis.com/blogger/v3/blogs/7025349432715574756/posts/?key="+myAPI.blogger+"&pageToken="+token;
-						fetch(fetchNextAddress)
-				      .then(res => res.json())
-							.then(
-								(result) => {
-									console.log(result);
-									let moreItems = result.items;
-									myMap = myMap.concat(moreItems);
-									console.log(myMap);
-									myMap.forEach( (item) => {
-										this.setState({
-											content: [
-												...this.state.content,
-												item.content
-											]
-										});
-									});
-								}
-							)
+			.then(res => res.json())
+			.then(
+				async (result) => {
+					mapArray = mapArray.concat(result.items);
+					if (result.nextPageToken){
+						await this.fetchContent(mapArray, result.nextPageToken)
 					}else{
-						myMap.forEach( (item) => {
-							this.setState({
-								content: [
-									...this.state.content,
-									item.content
-								]
-							});
-						});
+						console.log(mapArray);
+						this.mapContentToState(mapArray);
 					}
-        },
-        (error) => {
-          this.setState({
-            content: "error"
-          });
-        }
-      )
+				},
+				(error) => {
+					console.log("fetch error");
+				}
+			)
 	}
 
-	componentDidMount(){
-		this.mapContentToState();
-		console.log(myAPI.blogger);
+	mapContentToState(myMap){
+		myMap.forEach( (item) => {
+			this.setState({
+				content: [
+					...this.state.content,
+					item.content
+				]
+			});
+		})
+	}
+
+	async componentDidMount(){
+		let mapArray = [];
+		this.fetchContent(mapArray);
 	}
 
 	render() {
-
 	  return(
 	  	<Container className="Reviews">
 				<Row>
