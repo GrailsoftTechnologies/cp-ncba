@@ -66,3 +66,17 @@
 		max-width: 100%;
 	}
 }
+@media (min-width: 1700px) {
+	#desktopTitle h1{
+		font-size: 1.75vw;
+	}
+
+	#desktopTitle h1::first-letter{
+		font-size: 3.5vw;
+	}
+
+	#carouselImage {
+		height: 60vh;
+		max-width: 100%;
+	}
+}
