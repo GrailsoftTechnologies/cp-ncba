@@ -4,7 +4,10 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption
+  CarouselCaption,
+  Container,
+  Row,
+  Col
 } from 'reactstrap';
 import './styles.css';
 
@@ -87,13 +90,27 @@ class CarouselFrame extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} id="carouselImage"/>
-          <div id="bgtext1">
-            <h1>NASHVILLE</h1>
-            <h1>CLASSICAL</h1>
-            <h1>BALLET</h1>
-            <h1>ACADEMY</h1>
-          </div>
+          <Container>
+            <Row>
+              <Col md="1"></Col>
+              <Col md="3" id="desktopTitle">
+                <h1>NASHVILLE</h1>
+                <h1>CLASSICAL</h1>
+                <h1>BALLET</h1>
+                <h1>ACADEMY</h1>
+              </Col>
+              <Col md="7">
+                <div id="mobileTitle">
+                  <h1>NASHVILLE</h1>
+                  <h1>CLASSICAL</h1>
+                  <h1>BALLET</h1>
+                  <h1>ACADEMY</h1>
+                </div>
+                <img src={item.src} alt={item.altText} id="carouselImage"/>
+              </Col>
+              <Col md="1"></Col>
+            </Row>
+          </Container>
           <CarouselCaption captionText={item.altText} captionHeader={item.caption} className={item.className}/>
         </CarouselItem>
       );

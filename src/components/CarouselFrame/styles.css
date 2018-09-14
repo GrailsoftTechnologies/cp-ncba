@@ -1,9 +1,9 @@
 .carouselBackground {
-	height: 80vh;
 	background-color: grey;
 }
 #carouselImage {
 	height: 80vh;
+	max-width: 100%;
 }
 
 .specialClass {
@@ -15,7 +15,7 @@
 	text-align: left;
 }
 
-#bgtext1 {
+#mobileTitle {
 	position: absolute;
 	color: white;
 	top: 5%;
@@ -24,4 +24,45 @@
 	right: 50%;
 	text-align: left;
 	z-index: 10;
+}
+#mobileTitle h1{
+	display: none;
+	color: white;
+	text-align: left;
+	font-size: 5.25vw;
+	line-height: .75;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+}
+
+#mobileTitle h1::first-letter{
+	font-size: 9.25vw;
+}
+
+#desktopTitle h1{
+	color: white;
+	text-align: left;
+	font-size: 3.25vw;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+}
+#desktopTitle h1::first-letter{
+	font-size: 6.25vw;
+}
+
+#mobileTitle h1{
+	display: none;
+}
+
+@media (max-width: 768px) {
+	#desktopTitle h1{
+		display: none;
+	}
+	#mobileTitle h1{
+		display: block;
+	}
+	#carouselImage {
+		height: 60vh;
+		max-width: 100%;
+	}
 }

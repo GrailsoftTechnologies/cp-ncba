@@ -3,7 +3,7 @@ import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import './styles.css';
 
 import aaronProfile from '../../img/aaron.jpg';
-import kristinProfile from '../../img/kristin.jpeg';
+import kristinProfile from '../../img/kristin.jpg';
 
 class About extends Component {
 render() {
