@@ -2,7 +2,7 @@
   "name": "ncba",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://grailsofttechnologies.github.io/cp-ncba/",
+  "homepage": "https://www.ncbacademy.com/",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "react": "^16.4.1",
