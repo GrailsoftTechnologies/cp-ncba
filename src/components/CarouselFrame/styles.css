@@ -54,7 +54,7 @@
 	display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 	#desktopTitle h1{
 		display: none;
 	}
@@ -64,6 +64,19 @@
 	#carouselImage {
 		height: 60vh;
 		max-width: 100%;
+	}
+}
+@media (min-width: 576px) {
+	#mobileTitle h1{
+		margin-left: 25%;
+		font-size: 2.25vw;
+		line-height: .75;
+		font-weight: 600;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#mobileTitle h1::first-letter{
+		font-size: 4.25vw;
 	}
 }
 @media (min-width: 1700px) {

@@ -14,7 +14,7 @@ import './styles.css';
 import pic1 from '../../img/home1.jpg';
 import pic2 from '../../img/home2.jpg';
 import pic3 from '../../img/home3r.jpg';
-import pic4 from '../../img/home4.jpg';
+import pic4 from '../../img/home4r.jpg';
 
 
 const items = [
@@ -92,14 +92,14 @@ class CarouselFrame extends Component {
         >
           <Container>
             <Row>
-              <Col md="1"></Col>
-              <Col md="3" id="desktopTitle">
+              <Col lg="0" xl="1"></Col>
+              <Col lg="3" xl="3" id="desktopTitle">
                 <h1>NASHVILLE</h1>
                 <h1>CLASSICAL</h1>
                 <h1>BALLET</h1>
                 <h1>ACADEMY</h1>
               </Col>
-              <Col md="7">
+              <Col lg="9" xl="7">
                 <div id="mobileTitle">
                   <h1>NASHVILLE</h1>
                   <h1>CLASSICAL</h1>
@@ -108,7 +108,7 @@ class CarouselFrame extends Component {
                 </div>
                 <img src={item.src} alt={item.altText} id="carouselImage"/>
               </Col>
-              <Col md="1"></Col>
+              <Col leg="0" xl="1"></Col>
             </Row>
           </Container>
           <CarouselCaption captionText={item.altText} captionHeader={item.caption} className={item.className}/>
