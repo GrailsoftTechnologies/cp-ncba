@@ -56,7 +56,8 @@ render() {
 									<h1 className="display-4">Assistant Director</h1>
 								</Col>
 								<Col sm="5">
-									<img src={kristinProfile} alt="profile"/>
+									<img src={kristinProfile} alt="profile" title="Photo Credit: Vikki Sloviter"/>
+                  <p className="photo-credit">Photo Credit: Vikki Sloviter</p>
 								</Col>
 								<Col sm="1"></Col>
 							</Row>

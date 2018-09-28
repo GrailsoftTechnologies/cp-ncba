@@ -26,6 +26,10 @@
 	height:100%;
 }
 
+.photo-credit {
+	font-size: 1.5vh;
+}
+
 #one {
 	font-family: 'Ballerine Script';
 }
