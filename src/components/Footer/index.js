@@ -19,9 +19,9 @@ render() {
 					<p>(415)-613-4104</p>
 				</Col>
 				<Col sm="3">
-					<a href="http://www.facebook.com"><i className="mediaIcon fab fa-facebook"></i></a>
-					<a href="http://www.instagram.com"><i className="mediaIcon fab fa-instagram"></i></a>
-					<a href="http://www.youtube.com"><i className="mediaIcon fab fa-youtube"></i></a>
+					<a href="https://www.facebook.com/ncbacademy/"><i className="mediaIcon fab fa-facebook"></i></a>
+					<a href="https://www.instagram.com/ncbacademy/"><i className="mediaIcon fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/channel/UCJ66_WrcxEgfxtH3kIgCVEQ"><i className="mediaIcon fab fa-youtube"></i></a>
 				</Col>
 			</Row>
     </div>
