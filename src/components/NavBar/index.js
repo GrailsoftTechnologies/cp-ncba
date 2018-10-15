@@ -27,31 +27,31 @@ class NavBar extends Component {
     return (
 			<div className="NavBar sticky-top">
 				<Navbar expand="md" className={this.props.className}>
-	        <NavbarBrand href={"#"}>
+	        <NavbarBrand href={"/"}>
 	        </NavbarBrand>
 	        <NavbarToggler onClick={this.toggle}/>
 	        <Collapse isOpen={this.state.isOpen} navbar>
 	          <Nav className="ml-auto" navbar>
 							<NavItem>
-								<NavLink href={"#/"} onClick={this.toggle2} className="menuItem">Home</NavLink>
+								<NavLink href={"/"} onClick={this.toggle2} className="menuItem">Home</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/About"} onClick={this.toggle2} className="menuItem">About</NavLink>
+								<NavLink href={"/About"} onClick={this.toggle2} className="menuItem">About</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Programs"} onClick={this.toggle2} className="menuItem">Programs</NavLink>
+								<NavLink href={"/Programs"} onClick={this.toggle2} className="menuItem">Programs</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Gallery"} onClick={this.toggle2} className="menuItem">Gallery</NavLink>
+								<NavLink href={"/Gallery"} onClick={this.toggle2} className="menuItem">Gallery</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Schedule"} onClick={this.toggle2} className="menuItem">Schedule</NavLink>
+								<NavLink href={"/Schedule"} onClick={this.toggle2} className="menuItem">Schedule</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Reviews"} onClick={this.toggle2} className="menuItem">Reviews</NavLink>
+								<NavLink href={"/Reviews"} onClick={this.toggle2} className="menuItem">Reviews</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Contact"} onClick={this.toggle2} className="menuItem">Contact</NavLink>
+								<NavLink href={"/Contact"} onClick={this.toggle2} className="menuItem">Contact</NavLink>
 							</NavItem>
 	          </Nav>
 	        </Collapse>

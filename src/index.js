@@ -4,13 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.css'
 import './index.css';
 import App from './App';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
 
 
 ReactDOM.render(
-  <HashRouter basename={ process.env.PUBLIC_URL }>
+  <BrowserRouter basename={ process.env.PUBLIC_URL }>
     <App />
-  </HashRouter>, document.getElementById('root'));
+  </BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();
