@@ -47,11 +47,8 @@ class Contact extends Component {
 					<Col>
 						<Jumbotron fluid>
 							<p>
-								During our search for a new building, the Milele Academy has graciously allowed us to rent studio space. We will be holding all classes and private lessons here at this time. Please direct all questions, emails and phone calls to info@ncbacademy.com
+								During our search for a new building, we will be renting studio space within the Nashville Area. For more information, please direct all questions, emails and phone calls to info@ncbacademy.com
 							</p>
-							<p>The Milele Academy</p>
-							<p>1919 Church Street</p>
-							<p>Nashville, TN 37203</p>
 						</Jumbotron>
 					</Col>
 				</Row>
