@@ -43,7 +43,7 @@ render() {
                   <CardText>
 										A private lesson will be required for all new students interested in attending NCBA. Parents are strongly encouraged to observe. Families will be contacted shortly after the private lesson for further discussion and from there may be invited to attend a regular scheduled class. Please email the Assistant Director, Kristin Lindsay for inquiries.
 									</CardText>
-                  <Button href={"#/Contact"}>Contact</Button>
+                  <Button href={"/contact"}>Contact</Button>
                 </CardBody>
               </Card>
             </Col>
