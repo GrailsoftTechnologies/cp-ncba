@@ -1,7 +1,8 @@
 require('babel-register');
+import Sitemap from 'react-router-sitemap';
 
-const router = require('./router').default;
-const Sitemap = require('../').default;
+const router = require('./components/Router').default;
+
 
 (
     new Sitemap(router)
