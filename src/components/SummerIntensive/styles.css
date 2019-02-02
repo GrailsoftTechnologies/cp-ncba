@@ -1,0 +1,33 @@
+.Contact {
+	margin-top: 32px;
+}
+
+.Contact .jumbotron {
+	border-radius: 10px;
+}
+
+.Contact .display-4{
+	font-size: 3vw;
+}
+
+.Contact .display-3{
+	font-size: 4vw;
+}
+
+.Contact a{
+	font-size: 3vw;
+}
+
+@media (max-width: 575.98px) {
+	.Contact .display-4{
+		font-size: 7vw;
+	}
+
+	.Contact .display-3{
+		font-size: 8vw;
+	}
+
+	.Contact a{
+		font-size: 6vw;
+	}
+}

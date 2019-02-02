@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'reactstrap'
 
 
 class PDFFrame extends Component {
@@ -6,7 +7,6 @@ class PDFFrame extends Component {
   constructor(props){
     super(props);
     this.state = {
-      width: ((window.innerWidth > 576) ? 400 : parseInt(window.innerWidth*.75, 10)),
       height: (parseInt(window.innerHeight * .80, 10)), // 10 is for radix
       mobile: (((window.innerWidth > 576) && (window.innerHeight > 576)) ? false : true)
     }
@@ -15,12 +15,12 @@ class PDFFrame extends Component {
   render() {
     if(this.state.mobile){
       return(
-        <a href={this.props.source}>{"Click here to view " + this.props.title}</a>
+        <Button href={this.props.source}>{"Click here to view " + this.props.title}</Button>
       );
     }
     return(
-      <object height={this.state.height} width={this.state.width} data={source}/>
-      );
+      <object height={this.state.height} width="100%" data={this.props.source}/>
+    );
     }
 }
 

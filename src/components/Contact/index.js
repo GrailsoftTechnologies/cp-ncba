@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Col, Row, Container, Jumbotron } from 'reactstrap';
 import "./styles.css";
 
+import PDFFrame from '../PDFFrame'
+
 import infothing from '../../img/Summer flyer 2019.pdf'
 class Contact extends Component {
   constructor(props){
@@ -64,7 +66,7 @@ class Contact extends Component {
 				</Row>
         <Row>
 					<Col>
-						<object height={this.state.height} width="100%" data={infothing}/>
+						<PDFFrame source={infothing}/>
 					</Col>
 				</Row>
 			</Container>
