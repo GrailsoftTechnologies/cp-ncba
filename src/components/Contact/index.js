@@ -64,11 +64,6 @@ class Contact extends Component {
 						</Jumbotron>
 					</Col>
 				</Row>
-        <Row>
-					<Col>
-						<PDFFrame source={infothing}/>
-					</Col>
-				</Row>
 			</Container>
     );
   }
