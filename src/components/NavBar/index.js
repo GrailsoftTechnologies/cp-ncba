@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavbarToggler, Collapse, NavbarBrand, NavLink } from 'reactstrap';
+import { Navbar, Nav, NavItem, NavbarToggler, Collapse, NavbarBrand, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import './styles.css';
 
 class NavBar extends Component {
@@ -38,9 +38,19 @@ class NavBar extends Component {
 							<NavItem>
 								<NavLink href={"/about"} onClick={this.toggle2} className="menuItem">About</NavLink>
 							</NavItem>
-							<NavItem>
-								<NavLink href={"/programs"} onClick={this.toggle2} className="menuItem">Programs</NavLink>
-							</NavItem>
+							<UncontrolledDropdown nav inNavbar>
+	              <DropdownToggle nav caret href='something' className="menuItem">
+	                Programs
+	              </DropdownToggle>
+	              <DropdownMenu onClick={this.toggle2}>
+	                <DropdownItem href={"/programs"}>
+	                  General Program
+	                </DropdownItem>
+	                <DropdownItem href={"/summerintensive"}>
+	                  Summer Intensive
+	                </DropdownItem>
+	              </DropdownMenu>
+	            </UncontrolledDropdown>
 							<NavItem>
 								<NavLink href={"/gallery"} onClick={this.toggle2} className="menuItem">Gallery</NavLink>
 							</NavItem>

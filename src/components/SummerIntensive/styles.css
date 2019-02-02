@@ -1,0 +1,33 @@
+.SummerIntensive {
+	margin-top: 32px;
+}
+
+.SummerIntensive .jumbotron {
+	border-radius: 10px;
+}
+
+.SummerIntensive .display-4{
+	font-size: 3vw;
+}
+
+.SummerIntensive .display-3{
+	font-size: 4vw;
+}
+
+.SummerIntensive a{
+	font-size: 4vw;
+}
+
+@media (max-width: 575.98px) {
+	.SummerIntensive .display-4{
+		font-size: 7vw;
+	}
+
+	.SummerIntensive .display-3{
+		font-size: 8vw;
+	}
+
+	.SummerIntensive a{
+		font-size: 4vw;
+	}
+}
