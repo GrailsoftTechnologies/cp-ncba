@@ -2,7 +2,17 @@ import React, { Component } from "react";
 import { Col, Row, Container, Jumbotron } from 'reactstrap';
 import "./styles.css";
 
+import infothing from '../../img/Summer flyer 2019.pdf'
 class Contact extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      width: ((window.innerWidth > 576) ? 400 : parseInt(window.innerWidth*.75, 10)),
+      height: (parseInt(window.innerHeight * .80, 10)), // 10 is for radix
+      mobile: (((window.innerWidth > 576) && (window.innerHeight > 576)) ? false : true)
+    }
+  }
+
   render() {
     return (
 			<Container className="Contact">
@@ -50,6 +60,11 @@ class Contact extends Component {
 								During our search for a new building, we will be renting studio space within the Nashville Area. For more information, please direct all questions, emails and phone calls to info@ncbacademy.com
 							</p>
 						</Jumbotron>
+					</Col>
+				</Row>
+        <Row>
+					<Col>
+						<object height={this.state.height} width="100%" data={infothing}/>
 					</Col>
 				</Row>
 			</Container>
