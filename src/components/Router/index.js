@@ -11,6 +11,7 @@ import Gallery from '../Gallery';
 import Schedule from '../Schedule';
 import Reviews from '../Reviews';
 import SummerIntensive from '../SummerIntensive';
+import GuestInstructors from '../GuestInstructors';
 import NotFound from '../NotFound';
 import './styles.css';
 
@@ -28,6 +29,7 @@ class Router extends Component {
 					<Route path="/schedule" component={Schedule}/>
 					<Route path="/reviews" component={Reviews}/>
           <Route path="/summerintensive" component={SummerIntensive}/>
+          <Route path="/guestinstructors" component={GuestInstructors} />
           <Route component={NotFound} />
         </Switch>
       </div>

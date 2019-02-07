@@ -1,0 +1,49 @@
+.GuestInstructors {
+	margin-top: 32px;
+}
+
+.GuestInstructors h3 {
+	text-align: left;
+}
+.GuestInstructors .jumbotron{
+	background-color: #e8e8e8;
+	border-radius: 10px;
+}
+
+.GuestInstructors .display-4{
+	font-size: 4vw;
+}
+
+.GuestInstructors .display-3{
+	font-size: 5vw;
+}
+
+.GuestInstructors img {
+	margin: auto
+}
+
+.card {
+	height:100%;
+}
+
+.photo-credit {
+	font-size: 1.5vh;
+}
+
+#one {
+	font-family: 'Ballerine Script';
+}
+
+#two {
+	font-family: 'Bluebell';
+}
+
+@media (max-width: 575.98px) {
+	.GuestInstructors .display-4{
+		font-size: 7vw;
+	}
+
+	.GuestInstructors .display-3{
+		font-size: 8vw;
+	}
+}
