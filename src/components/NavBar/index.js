@@ -35,9 +35,19 @@ class NavBar extends Component {
 							<NavItem>
 								<NavLink href={"/"} onClick={this.toggle2} className="menuItem">Home</NavLink>
 							</NavItem>
-							<NavItem>
-								<NavLink href={"/about"} onClick={this.toggle2} className="menuItem">About</NavLink>
-							</NavItem>
+							<UncontrolledDropdown nav inNavbar>
+	              <DropdownToggle nav caret href='something' className="menuItem">
+	                About
+	              </DropdownToggle>
+	              <DropdownMenu onClick={this.toggle2}>
+	                <DropdownItem href={"/about"}>
+	                  About Us
+	                </DropdownItem>
+	                <DropdownItem href={"/guestinstructors"}>
+	                  Guest Instructors
+	                </DropdownItem>
+	              </DropdownMenu>
+	            </UncontrolledDropdown>
 							<UncontrolledDropdown nav inNavbar>
 	              <DropdownToggle nav caret href='something' className="menuItem">
 	                Programs

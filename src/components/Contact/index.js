@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import { Col, Row, Container, Jumbotron } from 'reactstrap';
 import "./styles.css";
 
-import PDFFrame from '../PDFFrame'
-
-import infothing from '../../img/Summer flyer 2019.pdf'
 class Contact extends Component {
   constructor(props){
     super(props)
