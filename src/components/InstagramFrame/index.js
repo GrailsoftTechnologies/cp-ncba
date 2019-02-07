@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import InstagramEmbed from 'react-instagram-embed';
 import { Row, Col } from 'reactstrap';
 
+import IGFrame from '../IGFrame';
+
 import myAPI from '../../api.js'
 
 class InstagramFrame extends Component {
@@ -21,6 +23,7 @@ class InstagramFrame extends Component {
     .then(
       (result) => {
 				let myMap = result.data;
+				console.log(myMap);
 				myMap.forEach( (data) => {
 					this.setState({
 						urls: [
@@ -48,8 +51,8 @@ class InstagramFrame extends Component {
 			list = this.state.urls.map((url, index) =>
 				<Row key={index}>
 					<Col>
-						<InstagramEmbed
-							url={this.state.urls[index]}
+						<IGFrame
+							src={this.state.urls[index]}
 							maxWidth={this.props.width}
 							hideCaption={false}
 							containerTagName='div'
