@@ -22,7 +22,7 @@ class SummerIntensive extends Component {
           <Col>
             <Jumbotron fluid>
               <Container fluid>
-                <h1 className="display-3">Summer 2019 Intensive Program</h1>
+                <h1 className="display-3">Nashville Classical Ballet Academy Summer Intensive Details 2019</h1>
               </Container>
             </Jumbotron>
           </Col>
