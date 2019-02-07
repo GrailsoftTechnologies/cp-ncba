@@ -7,7 +7,7 @@ class PDFFrame extends Component {
   constructor(props){
     super(props);
     this.state = {
-      height: (parseInt(window.innerHeight * .80, 10)), // 10 is for radix
+      height: (parseInt(window.innerHeight, 10)), // 10 is for radix
       mobile: (((window.innerWidth > 576) && (window.innerHeight > 576)) ? false : true)
     }
   }
