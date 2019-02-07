@@ -2,7 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://www.ncbacademy.com</loc><priority>0.5</priority></url>
 <url><loc>http://www.ncbacademy.com/about</loc><priority>0.5</priority></url>
+<url><loc>http://www.ncbacademy.com/guestinstructors</loc><priority>0.5</priority></url>
 <url><loc>http://www.ncbacademy.com/programs</loc><priority>0.5</priority></url>
+<url><loc>http://www.ncbacademy.com/summerintensive</loc><priority>0.5</priority></url>
 <url><loc>http://www.ncbacademy.com/gallery</loc><priority>0.5</priority></url>
 <url><loc>http://www.ncbacademy.com/schedule</loc><priority>0.5</priority></url>
 <url><loc>http://www.ncbacademy.com/reviews</loc><priority>0.5</priority></url>
