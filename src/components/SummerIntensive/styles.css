@@ -14,9 +14,6 @@
 	font-size: 4vw;
 }
 
-.SummerIntensive a{
-	font-size: 4vw;
-}
 
 @media (max-width: 575.98px) {
 	.SummerIntensive .display-4{
@@ -27,7 +24,4 @@
 		font-size: 8vw;
 	}
 
-	.SummerIntensive a{
-		font-size: 4vw;
-	}
 }
