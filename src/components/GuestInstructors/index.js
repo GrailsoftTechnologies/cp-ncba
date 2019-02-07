@@ -4,9 +4,6 @@ import myAPI from '../../api.js'
 import ReactHtmlParser from 'react-html-parser';
 import './styles.css';
 
-import aaronProfile from '../../img/aaron.jpg';
-import kristinProfile from '../../img/kristin.jpg';
-
 class GuestInstructors extends Component {
   constructor(props){
 		super(props);

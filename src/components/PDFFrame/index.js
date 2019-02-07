@@ -19,7 +19,7 @@ class PDFFrame extends Component {
       );
     }
     return(
-      <object height={this.state.height} width="100%" data={this.props.source}/>
+      <object height={this.state.height} width="100%" data={this.props.source} aria-label="pdf file"/>
     );
     }
 }
