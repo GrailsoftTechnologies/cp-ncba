@@ -33,6 +33,7 @@ class SummerIntensive extends Component {
               <Container fluid>
                 <h3>When:</h3>
                 <h4>July 1st – August 3rd</h4>
+                <h4>*No class July 4th</h4>
                 <br/>
                 <h3>Where:</h3>
                 <h4>1850 General George Patton Dr.</h4>
@@ -44,7 +45,7 @@ class SummerIntensive extends Component {
                 <h4>Saturday 12:00-2:00pm</h4>
                 <br/>
                 <h3>Classes:</h3>
-                <h4>Saturday 12:00-2:00pm</h4>
+                <h4>Technique, Pointe, and Floor Barre</h4>
                 <p>Guest faculty may introduce either variations or set choreography. We do request students bring their own yoga mat and theraband.</p>
                 <br/>
                 <h3>Attire:</h3>
@@ -57,7 +58,12 @@ class SummerIntensive extends Component {
                 <br/>
                 <h3>Cost:</h3>
                 <h4>Full 5 week program $1,500.00</h4>
-                <h4>Attending the entire intensive is strongly recommended although if only able to attend a certain portion weekly cost will amount to $375.00.</h4>
+                <h4>Attending the entire intensive is strongly recommended although if only able to attend a certain portion:</h4>
+                <h4>Week 1: $325.00 *no class July 4th</h4>
+                <h4>Week 2: $375.00</h4>
+                <h4>Week 3: $375.00</h4>
+                <h4>Week 4: $375.00</h4>
+                <h4>Week 5: $375.00</h4>
                 <h4>A deposit of $100.00 must be made at time of enrollment or no later than April 15th to secure students place. Full tuition must be paid by June 5th.</h4>
                 <br/>
                 <h3>Audition:</h3>
