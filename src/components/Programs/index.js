@@ -29,7 +29,7 @@ render() {
                   <CardTitle>Curriculum</CardTitle>
                   <CardSubtitle></CardSubtitle>
                   <CardText>
-										Nashville Classical Ballet Academy is happy to announce we are opening our doors to the great city of Nashville. We are proud to call ourselves the first classical ballet school to offer an educational experience passed down through generations of legendary dancers and master teachers. This elite training  program is dedicated to teaching the highest standard of ballet education to prepare career bound students. In our program we provide technique, pointe, conditioning, and private coaching to excel the abilities of our dancers. We offer a day program to suit the needs of our most advanced level and an evening program fitting to our intermediate level.
+										Nashville Classical Ballet Academy is happy to announce we are opening our doors to the great city of Nashville. We are proud to call ourselves the first classical ballet school to offer an educational experience passed down through generations of legendary dancers and master teachers. This elite training program is dedicated to teaching the highest standard of ballet education to prepare career bound students. In our program we provide technique, pointe, conditioning, and private coaching to excel the abilities of our dancers. We offer a day program to suit the needs of our most advanced level and working to build an evening program fitted to an intermediate level.
 									</CardText>
                 </CardBody>
               </Card>
@@ -41,7 +41,7 @@ render() {
                   <CardTitle>Audition and Placement</CardTitle>
                   <CardSubtitle></CardSubtitle>
                   <CardText>
-										A private lesson will be required for all new students interested in attending NCBA. Parents are strongly encouraged to observe. Families will be contacted shortly after the private lesson for further discussion and from there may be invited to attend a regular scheduled class. Please email the Assistant Director, Kristin Lindsay for inquiries.
+										New students interested in attending NCBA please send a direct email to <a href='mailto:kirstin@ncbacademy.com'>Kristin@ncbacademy.com</a> to request a trial class or to schedule a time to sit in and view our program. Parents are encouraged to observe during student's trial class. Families will be contacted shortly after for further discussion.  
 									</CardText>
                   <Button href={"/contact"}>Contact</Button>
                 </CardBody>
