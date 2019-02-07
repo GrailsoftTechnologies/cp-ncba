@@ -13,11 +13,12 @@ class IGFrame extends Component {
   }
 
   render() {
+    console.log(this.props.source)
     return(
       <div style={{textAlign: 'center'}}>
         <h4 style={{height : '41px', marginTop: '20px', visibility: (this.props.first ? 'visible' :'hidden')}}>Instagram Posts</h4>
         <iframe
-          src={"https://instagram.com/p/" + this.props.source + "/embed/captioned"}
+          src={this.props.source + "embed/captioned"}
           title="ig-frame"
           width={this.state.width}
           height={this.state.height}

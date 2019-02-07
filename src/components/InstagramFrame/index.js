@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import InstagramEmbed from 'react-instagram-embed';
 import { Row, Col } from 'reactstrap';
 
 import IGFrame from '../IGFrame';
@@ -11,7 +10,7 @@ class InstagramFrame extends Component {
 		super(props);
 
 		this.state = {
-			urls : ["https://instagr.am/p/Bl4m0xInwQl/"],
+			urls : [],
 		}
 
 	}
@@ -22,8 +21,8 @@ class InstagramFrame extends Component {
     .then(res => res.json())
     .then(
       (result) => {
+				console.log(result);
 				let myMap = result.data;
-				console.log(myMap);
 				myMap.forEach( (data) => {
 					this.setState({
 						urls: [
@@ -47,26 +46,17 @@ class InstagramFrame extends Component {
 
 	render() {
 		let list = null;
+		console.log(this.state.urls)
 		if (this.state.urls[0]){
 			list = this.state.urls.map((url, index) =>
 				<Row key={index}>
 					<Col>
 						<IGFrame
-							src={this.state.urls[index]}
-							maxWidth={this.props.width}
-							hideCaption={false}
-							containerTagName='div'
-							protocol=''
-							injectScript
-							onLoading={() => {}}
-							onSuccess={() => {}}
-							onAfterRender={() => {}}
-							onFailure={() => {}}
+							source={this.state.urls[index]}
 						/>
 					</Col>
 				</Row>
 			);
-			console.log(list);
 			return list;
 		}else{
 
