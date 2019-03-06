@@ -44,6 +44,24 @@ class Gallery extends Component {
 				<Jumbotron>
 					<Row>
 						<Col>
+							<YouTubeFrame src="4iZs6BkmTY0" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>NCBA Students 2018/2019</p>
+							<p>Morning Warmup (Part 2)</p>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<YouTubeFrame src="W6TpnJfZSLs" height={winY} width={winX}/>
+						</Col>
+						<Col>
+							<p>NCBA Students 2018/2019</p>
+							<p>Morning Warmup (Part 1)</p>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
 							<YouTubeFrame src="2UzNTQ-G83c" height={winY} width={winX}/>
 						</Col>
 						<Col>
