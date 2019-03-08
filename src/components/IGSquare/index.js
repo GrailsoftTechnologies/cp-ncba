@@ -35,7 +35,7 @@ class IGSquare extends Component {
 
   render() {
     return (
-      <div style={{textAlign: 'center', margin: 'auto', width: this.state.width, height: '320px'}}
+      <div style={{textAlign: 'center', margin: 'auto', marginTop: '1vh', marginBottom: '1vh', width: this.state.width, height: '320px'}}
         onMouseEnter={this.handleMouseEnter}
         onMouseLeave={this.handleMouseLeave}
         onTouchStart={this.handleTouchStart} >

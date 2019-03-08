@@ -19,7 +19,7 @@ class IGEmbedFrame extends Component {
   }
 
   async mapSquaresToState() {
-    fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + process.env.REACT_APP_INSTAGRAM_API + '&count=6')
+    await fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + process.env.REACT_APP_INSTAGRAM_API + '&count=6')
       .then(res =>
         res.json())
       .then(
@@ -92,7 +92,7 @@ class IGEmbedFrame extends Component {
         </Col>
       )
       return (
-        <div className='IGEmbedFrame' style={{textAlign: 'center', backgroundColor: 'black'}}>
+        <div className='IGEmbedFrame' style={{textAlign: 'center', backgroundColor: 'inherit'}}>
           <h4 style={{height: '41px', marginTop: '20px'}}>Instagram Posts</h4>
           <Container>
             <Row style={{margin: '0px'}}>
