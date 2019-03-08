@@ -18,13 +18,13 @@ class IGEmbedFrame extends Component {
     }
   }
 
-  mapSquaresToState() {
-    fetch('https://www.thunderbirdbarpdx.com/sup.php')
-      .then(res => res.json())
+  async mapSquaresToState() {
+    fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + process.env.REACT_APP_INSTAGRAM_API + '&count=6')
+      .then(res =>
+        res.json())
       .then(
         (result) => {
-          let results = JSON.parse(result)
-          let myMap = results.data
+          let myMap = result.data
           myMap.forEach((data) => {
             let newurl = data.link.replace('/thunderbirdpdx', '')
             this.setState({
