@@ -3,7 +3,8 @@ import './styles.css';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
 
-import YouTubeFrame from '../YouTubeFrame';
+import YouTubeFrame from '../YouTubeFrame'
+import IGEmbedFrame from '../IGEmbedFrame'
 
 class Gallery extends Component {
 	render() {
@@ -42,6 +43,11 @@ class Gallery extends Component {
 					</Col>
 				</Row>
 				<Jumbotron>
+					<Row>
+						<Col>
+							<IGEmbedFrame squares />
+						</Col>
+					</Row>
 					<Row>
 						<Col>
 							<YouTubeFrame src="4iZs6BkmTY0" height={winY} width={winX}/>
