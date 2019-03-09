@@ -41,7 +41,7 @@ class IGSquare extends Component {
         onTouchStart={this.handleTouchStart} >
         <a href={this.props.url}>
           <div className='d-flex flex-column align-items-center' style={{position: 'absolute', backgroundColor: 'black', opacity: 0.8, zIndex: 3, width: this.state.width, height: '320px', visibility: this.state.active ? 'visible' : 'hidden'}}>
-            <p style={{margin: 'auto'}}>{this.props.caption}</p>
+            <p style={{margin: 'auto', height: '100%', overflow: 'hidden'}}>{this.props.caption}</p>
           </div>
         </a>
         <a href={this.props.url} style={{zIndex: 2}} >
