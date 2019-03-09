@@ -45,9 +45,11 @@ class Gallery extends Component {
 				<Jumbotron>
 					<Row>
 						<Col>
-							<IGEmbedFrame squares />
+							<IGEmbedFrame token={process.env.REACT_APP_INSTAGRAM_API} squares />
 						</Col>
 					</Row>
+				</Jumbotron>
+				<Jumbotron>
 					<Row>
 						<Col>
 							<YouTubeFrame src="4iZs6BkmTY0" height={winY} width={winX}/>
