@@ -57,7 +57,7 @@ class IGSquare extends Component {
 }
 
 IGSquare.defaultProps = {
-  url: 'https://www.instagram.com/p/Bl4m0xInwQl/',
+  url: 'https://www.instagram.com',
   img: '',
   caption: ''
 }
