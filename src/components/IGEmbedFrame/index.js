@@ -34,7 +34,7 @@ class IGEmbedFrame extends Component {
               ],
               imgs: [
                 ...this.state.imgs,
-                data.images.low_resolution.url
+                ((data.type==='video') ? data.images.standard_resolution.url : data.images.low_resolution.url)
               ],
               captions: [
                 ...this.state.captions,
