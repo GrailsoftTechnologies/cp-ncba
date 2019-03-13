@@ -44,11 +44,11 @@ class IGSquare extends Component {
             <p style={{margin: 'auto', height: '100%', overflow: 'hidden'}}>{this.props.caption}</p>
           </div>
         </a>
-        <a href={this.props.url} style={{zIndex: 2}} >
+        <a className='d-flex flex-column align-items-center' href={this.props.url} style={{zIndex: 2, overflow: 'hidden'}} >
           <img
             src={this.props.img}
             alt={this.props.caption}
-            style={{width: this.state.width, height: '320px'}}
+            style={{height: '320px'}}
           />
         </a>
       </div>
