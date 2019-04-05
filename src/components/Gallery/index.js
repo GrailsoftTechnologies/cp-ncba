@@ -56,18 +56,10 @@ class Gallery extends Component {
 						</Col>
 						<Col>
 							<p>NCBA Students 2018/2019</p>
-							<p>Morning Warmup (Part 2)</p>
+							<p>Morning Warmup</p>
 						</Col>
 					</Row>
-					<Row>
-						<Col>
-							<YouTubeFrame src="W6TpnJfZSLs" height={winY} width={winX}/>
-						</Col>
-						<Col>
-							<p>NCBA Students 2018/2019</p>
-							<p>Morning Warmup (Part 1)</p>
-						</Col>
-					</Row>
+					<hr />
 					<Row>
 						<Col>
 							<YouTubeFrame src="2UzNTQ-G83c" height={winY} width={winX}/>
@@ -78,6 +70,7 @@ class Gallery extends Component {
 							<p>Royal Ballet School Summer Program</p>
 						</Col>
 					</Row>
+					<hr />
 					<Row>
 						<Col>
 							<YouTubeFrame src="RZNlRsg6sL8" height={winY} width={winX}/>
@@ -88,6 +81,7 @@ class Gallery extends Component {
 							<p>Coached by Aaron Orza</p>
 						</Col>
 					</Row>
+					<hr />
 					<Row>
 						<Col>
 							<YouTubeFrame src="4Mepg8po39g" height={winY} width={winX}/>
@@ -98,6 +92,7 @@ class Gallery extends Component {
 							<p>Coached by Aaron Orza</p>
 						</Col>
 					</Row>
+					<hr />
 					<Row>
 						<Col>
 							<YouTubeFrame src="L5rG9SiFxAU" height={winY} width={winX}/>
@@ -107,6 +102,7 @@ class Gallery extends Component {
 							<p>Choreographed by Aaron Orza</p>
 						</Col>
 					</Row>
+					<hr />
 					<Row>
 						<Col>
 							<YouTubeFrame src="hKRMZT781lA" height={winY} width={winX}/>
@@ -117,6 +113,7 @@ class Gallery extends Component {
 							<p>Coached by Aaron Orza</p>
 						</Col>
 					</Row>
+					<hr />
 					<Row>
 						<Col>
 							<YouTubeFrame src="G33G-SG6Ro4" height={winY} width={winX}/>
@@ -127,6 +124,7 @@ class Gallery extends Component {
 							<p>Coached by Aaron Orza</p>
 						</Col>
 					</Row>
+					<hr />
 					<Row>
 						<Col>
 							<YouTubeFrame src="Sraj3VsihA8" height={winY} width={winX}/>
@@ -137,6 +135,7 @@ class Gallery extends Component {
 							<p>Choreographed by Aaron Orza</p>
 						</Col>
 					</Row>
+					<hr />
 					<Row>
 						<Col>
 							<YouTubeFrame src="ax-I1ZPNTvI" height={winY} width={winX}/>
