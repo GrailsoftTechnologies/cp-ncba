@@ -19,6 +19,13 @@ class Home extends Component {
 	            </Jumbotron>
 	          </Col>
 	        </Row>
+          <Row>
+            <Col>
+              <Jumbotron fluid>
+                <div id="paypal-button-container" />
+              </Jumbotron>
+            </Col>
+          </Row>
 	      </Container>
 			</div>
 		)
