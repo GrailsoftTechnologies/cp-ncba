@@ -2,6 +2,10 @@
 	margin-top: 32px;
 }
 
+.Donations li {
+	text-align: left;
+}
+
 .Donations .jumbotron {
 	border-radius: 10px;
 }

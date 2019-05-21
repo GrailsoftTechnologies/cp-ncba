@@ -22,6 +22,12 @@ render() {
 					<a href="https://www.facebook.com/ncbacademy/"><i className="mediaIcon fab fa-facebook"></i></a>
 					<a href="https://www.instagram.com/ncbacademy/"><i className="mediaIcon fab fa-instagram"></i></a>
 					<a href="https://www.youtube.com/channel/UCJ66_WrcxEgfxtH3kIgCVEQ"><i className="mediaIcon fab fa-youtube"></i></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="EABJ3TGHV4PHA" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          </form>
 				</Col>
 			</Row>
     </div>
