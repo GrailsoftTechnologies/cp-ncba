@@ -39,27 +39,7 @@
       "image": "http://www.ncbacademy.com/logo.png"
     }
     </script>
-    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
-    <script>
-        paypal.Buttons({
-            createOrder: function(data, actions) {
-                return actions.order.create({
-                    purchase_units: [{
-                        amount: {
-                            value: '0.69'
-                        },
-                        description: 'LOLOLOLOL'
-                    }]
-                });
-            },
-            onApprove: function(data, actions) {
-                return actions.order.capture().then(function(details) {
-
-                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
-                });
-            }
-        }).render('#paypal-button-container');
-    </script>
+    <script src="https://www.paypal.com/sdk/js?client-id=Abi4RbRmoH6eWqzzcbOW1Gcz6QHE81vRloQZMR87PKfApvZIvXheY9lSOc3IO8l6D9_vXpSr_GvFOqmF&currency=USD"></script>
     <div id="root"></div>
   </body>
 </html>
