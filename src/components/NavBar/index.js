@@ -71,6 +71,9 @@ class NavBar extends Component {
 								<NavLink href={"/reviews"} onClick={this.toggle2} className="menuItem">Reviews</NavLink>
 							</NavItem>
 							<NavItem>
+								<NavLink href={"/donations"} onClick={this.toggle2} className="menuItem">Donations</NavLink>
+							</NavItem>
+							<NavItem>
 								<NavLink href={"/contact"} onClick={this.toggle2} className="menuItem">Contact</NavLink>
 							</NavItem>
 	          </Nav>

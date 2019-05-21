@@ -7,6 +7,7 @@ import Home from '../Home';
 import Programs from '../Programs';
 import About from '../About';
 import Contact from '../Contact';
+import Donations from '../Donations'
 import Gallery from '../Gallery';
 import Schedule from '../Schedule';
 import Reviews from '../Reviews';
@@ -25,6 +26,7 @@ class Router extends Component {
           <Route path="/programs" component={Programs}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
+          <Route path='/donations' component={Donations} />
 					<Route path="/gallery" component={Gallery}/>
 					<Route path="/schedule" component={Schedule}/>
 					<Route path="/reviews" component={Reviews}/>
