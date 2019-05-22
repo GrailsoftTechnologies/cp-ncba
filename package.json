@@ -4,16 +4,15 @@
   "private": true,
   "homepage": "https://www.ncbacademy.com/",
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "grailsoft-modules": "https://github.com/dcuthell/grailsoft-modules",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-html-parser": "^2.0.2",
-    "react-instagram-embed": "^1.4.0",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.0.0",
     "react-router-sitemap": "^1.1.5",
-    "react-scripts": "1.1.4",
-    "reactstrap": "^6.3.0"
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -24,7 +23,19 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.1.0",
-    "gh-pages": "^1.2.0"
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "gh-pages": "^2.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
