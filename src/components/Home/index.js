@@ -3,7 +3,6 @@ import './styles.css';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
 import CarouselFrame from '../CarouselFrame';
-import logo from '../../img/logo.png'
 
 class Home extends Component {
 

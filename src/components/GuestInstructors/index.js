@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
-import myAPI from '../../api.js'
 import ReactHtmlParser from 'react-html-parser';
 import './styles.css';
 
@@ -14,7 +13,7 @@ class GuestInstructors extends Component {
 	}
 
 	async fetchContent(mapArray, pageToken){
-		let fetchAddress = "https://www.googleapis.com/blogger/v3/blogs/5826799425781890887/posts/?key="+myAPI.blogger;
+		let fetchAddress = "https://www.googleapis.com/blogger/v3/blogs/5826799425781890887/posts/?key=" + process.env.REACT_APP_BLOGGER_API;
 		if(pageToken){
 			fetchAddress += "&pageToken="+pageToken;
 		}

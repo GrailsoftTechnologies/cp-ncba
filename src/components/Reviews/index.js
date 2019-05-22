@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
 import './styles.css';
-import myAPI from '../../api.js'
 
 class Reviews extends Component {
 	constructor(props){
@@ -14,7 +13,7 @@ class Reviews extends Component {
 	}
 
 	async fetchContent(mapArray, pageToken){
-		let fetchAddress = "https://www.googleapis.com/blogger/v3/blogs/7025349432715574756/posts/?key="+myAPI.blogger;
+		let fetchAddress = "https://www.googleapis.com/blogger/v3/blogs/7025349432715574756/posts/?key=" + process.env.REACT_APP_BLOGGER_API;
 		if(pageToken){
 			fetchAddress += "&pageToken="+pageToken;
 		}
