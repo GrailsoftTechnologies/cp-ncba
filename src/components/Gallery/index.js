@@ -4,7 +4,7 @@ import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
 
 import YouTubeFrame from '../YouTubeFrame'
-import { IGEmbedFrame } from 'grailsoft-modules'
+import IGEmbedFrame from '../IGEmbedFrame'
 
 class Gallery extends Component {
 	render() {

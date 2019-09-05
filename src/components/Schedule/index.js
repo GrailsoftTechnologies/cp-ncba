@@ -3,6 +3,9 @@ import './styles.css';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 
 import CalendarFrame from '../CalendarFrame';
+import PDFFrame from '../PDFFrame'
+
+import pdf from '../../img/2019_2020_schedule.pdf'
 
 class Schedule extends Component {
 render() {
@@ -64,7 +67,7 @@ render() {
 			</Row>
 			<Row>
 				<Col>
-					<CalendarFrame width={winX} height={winY/2} importantDates/>
+					<PDFFrame source={pdf} title='2019-2020 Schedule'/>
 				</Col>
 			</Row>
 		</Container>
