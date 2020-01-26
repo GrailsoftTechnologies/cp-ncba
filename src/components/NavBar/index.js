@@ -56,9 +56,6 @@ class NavBar extends Component {
 	                <DropdownItem href={"/programs"}>
 	                  General Program
 	                </DropdownItem>
-	                <DropdownItem href={"/summerintensive"}>
-	                  Summer Intensive
-	                </DropdownItem>
 	              </DropdownMenu>
 	            </UncontrolledDropdown>
 							<NavItem>

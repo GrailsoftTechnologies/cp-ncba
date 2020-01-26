@@ -24,6 +24,7 @@ class IGEmbedFrame extends Component {
         res.json())
       .then(
         (result) => {
+          console.log(result)
           let myMap = result.data
           myMap.forEach((data) => {
             let newurl = data.link.replace('/thunderbirdpdx', '')
