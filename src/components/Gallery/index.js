@@ -42,13 +42,13 @@ class Gallery extends Component {
 						</Jumbotron>
 					</Col>
 				</Row>
-				<Jumbotron>
+				{/* <Jumbotron>
 					<Row>
 						<Col>
 							<IGEmbedFrame token={process.env.REACT_APP_INSTAGRAM_API} squares />
 						</Col>
 					</Row>
-				</Jumbotron>
+				</Jumbotron> */}
 				<Jumbotron>
 					<Row>
 						<Col>
